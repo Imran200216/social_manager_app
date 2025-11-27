@@ -1,0 +1,70 @@
+name: social_manager_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # flutter_svg
+  flutter_svg: ^2.2.3
+
+  # bloc
+  bloc: ^9.1.0
+  flutter_bloc: ^9.1.1
+
+  # logger
+  logger: ^2.6.2
+
+  # graphql flutter
+  graphql_flutter: ^5.2.1
+
+  # hive
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # go router
+  go_router: ^17.0.0
+
+  # smooth page indicator
+  smooth_page_indicator: ^1.2.1
+
+  # equatable
+  equatable: ^2.0.7
+
+  # get it
+  get_it: ^9.1.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/svg/
+    - assets/icons/svg/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Lato-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Lato-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Lato-Thin.ttf
+          weight: 100

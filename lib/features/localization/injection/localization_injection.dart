@@ -1,0 +1,9 @@
+import 'package:get_it/get_it.dart';
+import 'package:social_manager_app/features/localization/localization.dart';
+
+final GetIt getIt = GetIt.instance;
+
+void initLocalizationInjection() {
+  // Localization Cubit
+  getIt.registerLazySingleton(() => LocalizationCubit());
+}
