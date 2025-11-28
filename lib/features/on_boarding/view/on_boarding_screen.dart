@@ -8,6 +8,7 @@ import 'package:social_manager_app/core/themes/app_color_themes.dart';
 import 'package:social_manager_app/core/utils/responsive_utils.dart';
 import 'package:social_manager_app/commons/widgets/widgets.dart';
 import 'package:social_manager_app/features/on_boarding/on_boarding.dart';
+import 'package:social_manager_app/l10n/app_localizations.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -23,6 +24,9 @@ class OnBoardingScreen extends StatelessWidget {
 
     // Controller
     final PageController pageController = PageController();
+
+    // AppLocalization
+    final appLoc = AppLocalizations.of(context)!;
 
     return Scaffold(
       backgroundColor: AppColorThemes.whiteColor,
@@ -55,7 +59,11 @@ class OnBoardingScreen extends StatelessWidget {
                 );
               },
               child: SizedBox(
-                height: screenHeight * 0.38,
+                height: isMobile
+                    ? screenHeight * 0.44
+                    : isTablet
+                    ? screenHeight * 0.5
+                    : screenHeight * 0.6,
                 child: PageView(
                   controller: pageController,
                   onPageChanged: (index) {
@@ -69,24 +77,24 @@ class OnBoardingScreen extends StatelessWidget {
                       isTablet,
                       screenHeight,
                       AppAssetsConstants.effortlessManagement,
-                      "Smarter Networking like a King",
-                      "Exchange socials seamlessly and grow your network effortlessly, anytime, anywhere.",
+                      appLoc.onBoardingTitleOne,
+                      appLoc.onBoardingDescriptionOne,
                     ),
                     _onBoardPage(
                       isMobile,
                       isTablet,
                       screenHeight,
                       AppAssetsConstants.network,
-                      "Connect Instantly",
-                      "Scan QR codes and connect with people in seconds.",
+                      appLoc.onBoardingTitleTwo,
+                      appLoc.onBoardingDescriptionTwo,
                     ),
                     _onBoardPage(
                       isMobile,
                       isTablet,
                       screenHeight,
                       AppAssetsConstants.sharing,
-                      "Share Socials Easily",
-                      "Add unlimited social links and share them anytime.",
+                      appLoc.onBoardingTitleThree,
+                      appLoc.onBoardingDescriptionThree,
                     ),
                   ],
                 ),
@@ -124,7 +132,7 @@ class OnBoardingScreen extends StatelessWidget {
 
             // Skip
             KOutlinedBtn(
-              btnTitle: "Skip",
+              btnTitle: appLoc.skip,
               onTap: () {
                 // Auth Screen
                 context.pushReplacementNamed(AppRouterConstants.auth);
@@ -150,7 +158,7 @@ class OnBoardingScreen extends StatelessWidget {
                 final bool isLast = state.currentPage == 2;
 
                 return KFilledBtn(
-                  btnTitle: isLast ? "Get Started" : "Next",
+                  btnTitle: isLast ? appLoc.getStarted : appLoc.next,
                   btnBgColor: AppColorThemes.primaryColor,
                   btnTitleColor: AppColorThemes.titleColor,
                   onTap: () {
@@ -209,6 +217,7 @@ class OnBoardingScreen extends StatelessWidget {
         ),
         const SizedBox(height: 20),
         KText(
+          textAlign: TextAlign.center,
           softWrap: true,
           maxLines: 3,
           text: title,

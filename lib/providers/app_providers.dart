@@ -1,5 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
+import 'package:social_manager_app/features/bottom_nav/bottom_nav.dart';
 import 'package:social_manager_app/features/localization/localization.dart';
 import 'package:social_manager_app/features/on_boarding/on_boarding.dart';
 
@@ -13,4 +14,7 @@ List<BlocProvider> appBlocProviders = [
   BlocProvider<LocalizationCubit>(
     create: (context) => getIt<LocalizationCubit>(),
   ),
+
+  // Bottom Nav Cubit
+  BlocProvider<BottomNavCubit>(create: (context) => getIt<BottomNavCubit>()),
 ];

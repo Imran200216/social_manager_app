@@ -12,9 +12,20 @@ class AppAssetsConstants {
   static const String us = "assets/images/svg/us.svg";
   static const String india = "assets/images/svg/in.svg";
   static const String uae = "assets/images/svg/uae.svg";
-
+  static const String french = "assets/images/svg/french.svg";
 
   // Icons
   static const String google = "assets/icons/svg/google.svg";
   static const String apple = "assets/icons/svg/apple.svg";
+  static const String scan = "assets/icons/svg/scan.svg";
+
+  // Bottom Nav Icons
+  static const String homeOutlined = "assets/icons/svg/home-outlined.svg";
+  static const String homeFilled = "assets/icons/svg/home-filled.svg";
+  static const String scanOutlined = "assets/icons/svg/scan-outlined.svg";
+  static const String scanFilled = "assets/icons/svg/scan-filled.svg";
+  static const String historyOutlined = "assets/icons/svg/history-outlined.svg";
+  static const String historyFilled = "assets/icons/svg/history-filled.svg";
+  static const String profileOutlined = "assets/icons/svg/profile-outlined.svg";
+  static const String profileFilled = "assets/icons/svg/profile-filled.svg";
 }

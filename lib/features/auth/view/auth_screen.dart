@@ -6,6 +6,7 @@ import 'package:social_manager_app/core/themes/app_color_themes.dart';
 import 'package:social_manager_app/core/utils/utils.dart';
 import 'package:social_manager_app/features/auth/auth.dart';
 import 'package:social_manager_app/core/constants/constants.dart';
+import 'package:social_manager_app/l10n/app_localizations.dart';
 
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key});
@@ -15,6 +16,9 @@ class AuthScreen extends StatelessWidget {
     // Responsive
     final isTablet = ResponsiveUtils.isTablet(context);
     final isMobile = ResponsiveUtils.isMobile(context);
+
+    // AppLocalization
+    final appLoc = AppLocalizations.of(context)!;
 
     return Scaffold(
       backgroundColor: AppColorThemes.whiteColor,
@@ -55,7 +59,9 @@ class AuthScreen extends StatelessWidget {
 
             // Title
             KText(
-              text: "Enable passkeys",
+              text: appLoc.enablePassKeys,
+              softWrap: true,
+              maxLines: 2,
               textAlign: TextAlign.center,
               color: AppColorThemes.titleColor,
               fontWeight: FontWeight.w700,
@@ -70,9 +76,10 @@ class AuthScreen extends StatelessWidget {
 
             // Sub Title
             KText(
-              text:
-                  "Use Your face os fingerprint to verify it's\n you. No Password required",
+              text: appLoc.enablePasskeysDescription,
               textAlign: TextAlign.center,
+              softWrap: true,
+              maxLines: 3,
               color: AppColorThemes.subTitleColor,
               fontWeight: FontWeight.w600,
               fontSize: isMobile
@@ -86,7 +93,7 @@ class AuthScreen extends StatelessWidget {
 
             // Google Sign In
             SocialBtn(
-              btnTitle: "Continue with Google",
+              btnTitle: appLoc.continueWithGoogle,
               btnBgColor: AppColorThemes.secondaryColor,
               btnTitleColor: AppColorThemes.whiteColor,
               borderColor: AppColorThemes.subTitleColor.withOpacity(0.2),
@@ -123,7 +130,7 @@ class AuthScreen extends StatelessWidget {
 
             // Apple Sign In
             SocialBtn(
-              btnTitle: "Continue with Apple",
+              btnTitle: appLoc.continueWithApple,
               btnBgColor: AppColorThemes.whiteColor,
               btnTitleColor: AppColorThemes.titleColor,
               borderColor: AppColorThemes.subTitleColor.withOpacity(0.2),

@@ -1,0 +1,20 @@
+{
+  "onBoardingTitleOne": "किंग की तरह स्मार्ट नेटवर्किंग",
+  "onBoardingDescriptionOne": "सोशल लिंक आसानी से साझा करें और कहीं भी, कभी भी अपना नेटवर्क बढ़ाएँ।",
+  "onBoardingTitleTwo": "तुरंत कनेक्ट करें",
+  "onBoardingDescriptionTwo": "QR कोड स्कैन करें और कुछ ही सेकंड में लोगों से जुड़ें।",
+  "onBoardingTitleThree": "सोशल लिंक आसानी से साझा करें",
+  "onBoardingDescriptionThree": "अनलिमिटेड सोशल लिंक जोड़ें और कभी भी साझा करें।",
+  "skip": "स्किप",
+  "next": "आगे",
+  "getStarted": "शुरू करें",
+  "enablePassKeys": "पासकी सक्षम करें",
+  "enablePasskeysDescription": "अपने चेहरे या फिंगरप्रिंट से पहचान की पुष्टि करें। पासवर्ड की ज़रूरत नहीं।",
+  "continueWithGoogle": "Google से जारी रखें",
+  "continueWithApple": "Apple से जारी रखें",
+  "termsPara": "जारी रखते हुए, आप पुष्टि करते हैं कि आपने पढ़ा है और सहमत हैं ",
+  "termsOfService": "सेवा की शर्तें",
+  "privacyPolicy": "गोपनीयता नीति",
+  "termsConsent" : " और\n सहमति देते हैं "
+
+}

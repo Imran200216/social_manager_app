@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:social_manager_app/core/themes/app_color_themes.dart';
 import 'package:social_manager_app/core/utils/utils.dart';
+import 'package:social_manager_app/l10n/app_localizations.dart';
 
 class TermsFooter extends StatelessWidget {
   final VoidCallback onTermsTap;
@@ -21,6 +22,9 @@ class TermsFooter extends StatelessWidget {
     final isTablet = ResponsiveUtils.isTablet(context);
     final isMobile = ResponsiveUtils.isMobile(context);
 
+    // AppLocalization
+    final appLoc = AppLocalizations.of(context)!;
+
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
@@ -35,14 +39,11 @@ class TermsFooter extends StatelessWidget {
           height: 1.4,
         ),
         children: [
-          const TextSpan(
-            text:
-                "By continuing, you confirm that you've read\nand agreed to the ",
-          ),
+          TextSpan(text: appLoc.termsPara),
 
           /// Terms of Service (Clickable)
           TextSpan(
-            text: "Terms of Service",
+            text: appLoc.termsOfService,
             style: TextStyle(
               fontFamily: "Lato",
               color: primary,
@@ -52,11 +53,11 @@ class TermsFooter extends StatelessWidget {
             recognizer: TapGestureRecognizer()..onTap = onTermsTap,
           ),
 
-          const TextSpan(text: " and\n consent to the "),
+          TextSpan(text: appLoc.termsConsent),
 
           /// Privacy Policy (Clickable)
           TextSpan(
-            text: "Privacy Policy",
+            text: appLoc.privacyPolicy,
             style: TextStyle(
               fontFamily: "Lato",
               color: primary,

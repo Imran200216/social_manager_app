@@ -41,6 +41,17 @@ dependencies:
   # get it
   get_it: ^9.1.1
 
+  # flutter localization
+  flutter_localization: ^0.3.3
+
+  # skeletonizer:
+  skeletonizer: ^2.1.0+1
+
+  # delightful_toast:
+  delightful_toast: ^1.1.0
+
+  # cached network image
+  cached_network_image: ^3.4.1
 
 
 dev_dependencies:
@@ -50,6 +61,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
 
   assets:
     - assets/images/svg/

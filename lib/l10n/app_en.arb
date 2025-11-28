@@ -1,0 +1,19 @@
+{
+  "onBoardingTitleOne": "Smarter Networking like a King",
+  "onBoardingDescriptionOne": "Exchange socials seamlessly and grow your network effortlessly, anytime, anywhere.",
+  "onBoardingTitleTwo": "Connect Instantly",
+  "onBoardingDescriptionTwo": "Scan QR codes and connect with people in seconds.",
+  "onBoardingTitleThree": "Share Socials Easily",
+  "onBoardingDescriptionThree": "Add unlimited social links and share them anytime",
+  "skip": "Skip",
+  "next": "Next",
+  "getStarted": "Get Started",
+  "enablePassKeys": "Enable passkeys",
+  "enablePasskeysDescription": "Use your face os fingerprint t verify it's\nyou. No Password required",
+  "continueWithGoogle": "Continue with Google",
+  "continueWithApple": "Continue with Apple",
+  "termsPara": "By continuing, you confirm that you've read\nand agreed to the ",
+  "termsOfService": "Terms of Service",
+  "privacyPolicy": "Privacy Policy",
+  "termsConsent" : " and\n consent to the "
+}

@@ -1,0 +1,21 @@
+{
+  "onBoardingTitleOne": "شبكات أذكى كأنك ملك",
+  "onBoardingDescriptionOne": "تبادل حساباتك الاجتماعية بسهولة ووسّع شبكتك في أي وقت وأي مكان.",
+  "onBoardingTitleTwo": "اتصل فورًا",
+  "onBoardingDescriptionTwo": "امسح رمز QR واتصل بالآخرين خلال ثوانٍ.",
+  "onBoardingTitleThree": "شارك حساباتك بسهولة",
+  "onBoardingDescriptionThree": "أضف روابط اجتماعية غير محدودة وشاركها في أي وقت.",
+  "skip": "تخطّي",
+  "next": "التالي",
+  "getStarted": "ابدأ",
+  "enablePassKeys": "تفعيل مفاتيح المرور",
+  "enablePasskeysDescription": "استخدم وجهك أو بصمتك للتحقق من هويتك. بدون الحاجة إلى كلمة مرور.",
+  "continueWithGoogle": "المتابعة باستخدام Google",
+  "continueWithApple": "المتابعة باستخدام Apple",
+  "termsPara": "بالمتابعة، أنت تؤكد أنك قرأت ووافقت على ",
+  "termsOfService": "شروط الخدمة",
+  "privacyPolicy": "سياسة الخصوصية",
+  "termsConsent" : " و\n توافق على "
+
+
+}

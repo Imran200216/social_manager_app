@@ -1,0 +1,20 @@
+{
+  "onBoardingTitleOne": "Un networking plus intelligent, comme un roi",
+  "onBoardingDescriptionOne": "Échangez vos réseaux sociaux facilement et développez votre réseau partout et à tout moment.",
+  "onBoardingTitleTwo": "Connectez-vous instantanément",
+  "onBoardingDescriptionTwo": "Scannez des QR codes et connectez-vous avec des personnes en quelques secondes.",
+  "onBoardingTitleThree": "Partagez vos réseaux facilement",
+  "onBoardingDescriptionThree": "Ajoutez un nombre illimité de liens sociaux et partagez-les à tout moment.",
+  "skip": "Passer",
+  "next": "Suivant",
+  "getStarted": "Commencer",
+  "enablePassKeys": "Activer les Passkeys",
+  "enablePasskeysDescription": "Utilisez votre visage ou votre empreinte digitale pour vérifier votre identité. Aucun mot de passe requis.",
+  "continueWithGoogle": "Continuer avec Google",
+  "continueWithApple": "Continuer avec Apple",
+  "termsPara": "En continuant, vous confirmez avoir lu et accepté les ",
+  "termsOfService": "Conditions d’utilisation",
+  "privacyPolicy": "Politique de confidentialité",
+  "termsConsent" : " et\n vous consentez à "
+
+}
