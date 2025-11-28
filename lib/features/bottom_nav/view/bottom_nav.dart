@@ -34,7 +34,7 @@ class BottomNav extends StatelessWidget {
             : 0;
 
         return Scaffold(
-          backgroundColor: AppColorThemes.secondaryColor,
+          backgroundColor: AppColorThemes.whiteColor,
           body: SafeArea(
             child: IndexedStack(index: selectedIndex, children: screens),
           ),
@@ -42,12 +42,26 @@ class BottomNav extends StatelessWidget {
           bottomNavigationBar: Directionality(
             textDirection: TextDirection.ltr,
             child: BottomNavigationBar(
+              backgroundColor: AppColorThemes.primaryColor.withOpacity(0.3),
+              elevation: 0,
               currentIndex: selectedIndex,
               type: BottomNavigationBarType.fixed,
-              selectedItemColor: AppColorThemes.primaryColor,
+              selectedItemColor: AppColorThemes.secondaryColor,
               unselectedItemColor: AppColorThemes.subTitleColor,
-              showSelectedLabels: false,
-              showUnselectedLabels: false,
+              showSelectedLabels: true,
+              showUnselectedLabels: true,
+              selectedLabelStyle: TextStyle(
+                fontFamily: "Lato",
+                fontWeight: FontWeight.w600,
+                color: AppColorThemes.secondaryColor,
+              ),
+              unselectedLabelStyle: TextStyle(
+                fontFamily: "Lato",
+                fontWeight: FontWeight.w600,
+                color: AppColorThemes.subTitleColor,
+              ),
+              selectedFontSize: 13,
+              unselectedFontSize: 13,
               onTap: (index) {
                 context.read<BottomNavCubit>().selectBottomNav(index);
               },
@@ -62,7 +76,7 @@ class BottomNav extends StatelessWidget {
                         ? 30
                         : 32,
                     fit: BoxFit.cover,
-                    color: AppColorThemes.primaryColor,
+                    color: AppColorThemes.secondaryColor,
                   ),
                   icon: SvgPicture.asset(
                     AppAssetsConstants.homeOutlined,
@@ -74,7 +88,7 @@ class BottomNav extends StatelessWidget {
                     fit: BoxFit.cover,
                     color: AppColorThemes.subTitleColor,
                   ),
-                  label: '',
+                  label: 'Home',
                 ),
 
                 // Scan
@@ -87,7 +101,7 @@ class BottomNav extends StatelessWidget {
                         ? 30
                         : 32,
                     fit: BoxFit.cover,
-                    color: AppColorThemes.primaryColor,
+                    color: AppColorThemes.secondaryColor,
                   ),
                   icon: SvgPicture.asset(
                     AppAssetsConstants.scanOutlined,
@@ -99,7 +113,7 @@ class BottomNav extends StatelessWidget {
                         : 32,
                     fit: BoxFit.cover,
                   ),
-                  label: '',
+                  label: 'Scan',
                 ),
 
                 // History
@@ -112,7 +126,7 @@ class BottomNav extends StatelessWidget {
                         ? 30
                         : 32,
                     fit: BoxFit.cover,
-                    color: AppColorThemes.primaryColor,
+                    color: AppColorThemes.secondaryColor,
                   ),
                   icon: SvgPicture.asset(
                     AppAssetsConstants.historyOutlined,
@@ -124,7 +138,7 @@ class BottomNav extends StatelessWidget {
                     fit: BoxFit.cover,
                     color: AppColorThemes.subTitleColor,
                   ),
-                  label: '',
+                  label: 'Connections',
                 ),
 
                 // Profile
@@ -137,7 +151,7 @@ class BottomNav extends StatelessWidget {
                         ? 30
                         : 32,
                     fit: BoxFit.cover,
-                    color: AppColorThemes.primaryColor,
+                    color: AppColorThemes.secondaryColor,
                   ),
                   icon: SvgPicture.asset(
                     AppAssetsConstants.profileOutlined,
@@ -149,7 +163,7 @@ class BottomNav extends StatelessWidget {
                     fit: BoxFit.cover,
                     color: AppColorThemes.subTitleColor,
                   ),
-                  label: '',
+                  label: 'Profile',
                 ),
               ],
             ),

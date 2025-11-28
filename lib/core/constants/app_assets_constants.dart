@@ -5,6 +5,10 @@ class AppAssetsConstants {
   static const String network = "assets/images/svg/network.svg";
   static const String sharing = "assets/images/svg/sharing.svg";
 
+  // Images
+  static const String personPlaceholder =
+      "assets/images/png/person-placeholder.png";
+
   // Auth
   static const String auth = "assets/images/svg/auth.svg";
 
@@ -18,6 +22,10 @@ class AppAssetsConstants {
   static const String google = "assets/icons/svg/google.svg";
   static const String apple = "assets/icons/svg/apple.svg";
   static const String scan = "assets/icons/svg/scan.svg";
+  static const String share = "assets/icons/svg/share.svg";
+  static const String faq = "assets/icons/svg/faq.svg";
+  static const String support = "assets/icons/svg/support.svg";
+  static const String logout = "assets/icons/svg/logout.svg";
 
   // Bottom Nav Icons
   static const String homeOutlined = "assets/icons/svg/home-outlined.svg";
