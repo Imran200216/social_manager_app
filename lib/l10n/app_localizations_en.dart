@@ -115,4 +115,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get chooseYourLanguageDescription => 'Pick your desired app language and enjoy a smoother, more personalized start.';
+
+  @override
+  String get scanQRCode => 'Scan QR Code';
+
+  @override
+  String get scanQRCodeTitle => 'Align the QR Code Inside the Frame';
+
+  @override
+  String get scanQRCodeSubTitle => 'Keep your device steady and ensure the QR code is fully visible for best results.';
+
+  @override
+  String get scanQRLightningSetup => 'Use good lighting to improve detection and scanning speed.';
 }

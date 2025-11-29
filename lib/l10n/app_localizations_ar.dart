@@ -115,4 +115,16 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get chooseYourLanguageDescription => 'اختر لغة التطبيق التي تناسبك واستمتع بتجربة أكثر سلاسة وتخصيصًا.';
+
+  @override
+  String get scanQRCode => 'مسح رمز الاستجابة السريعة';
+
+  @override
+  String get scanQRCodeTitle => 'ضع رمز الاستجابة السريعة داخل الإطار';
+
+  @override
+  String get scanQRCodeSubTitle => 'أمسك جهازك بثبات وتأكد من أن رمز الاستجابة السريعة مرئي بالكامل للحصول على أفضل النتائج.';
+
+  @override
+  String get scanQRLightningSetup => 'استخدم إضاءة جيدة لتحسين سرعة ودقة المسح.';
 }

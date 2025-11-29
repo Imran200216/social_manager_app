@@ -15,7 +15,7 @@
   "termsPara": "En continuant, vous confirmez avoir lu et accepté les ",
   "termsOfService": "Conditions d’utilisation",
   "privacyPolicy": "Politique de confidentialité",
-  "termsConsent" : " et\n vous consentez à ",
+  "termsConsent": " et\n vous consentez à ",
   "personalInfo": "Informations personnelles",
   "personalInfoDescription": "Gérez vos informations de base",
   "shareApp": "Partager l'application",
@@ -34,5 +34,9 @@
   "languagePreference": "Préférence de langue",
   "languagePreferenceDescription": "Gérez les paramètres de langue de votre application",
   "chooseYourLanguage": "Choisissez votre langue",
-  "chooseYourLanguageDescription": "Sélectionnez la langue de l’application pour une expérience plus fluide et personnalisée."
+  "chooseYourLanguageDescription": "Sélectionnez la langue de l’application pour une expérience plus fluide et personnalisée.",
+  "scanQRCode": "Scanner le code QR",
+  "scanQRCodeTitle": "Alignez le code QR à l'intérieur du cadre",
+  "scanQRCodeSubTitle": "Gardez votre appareil stable et assurez-vous que le code QR est entièrement visible pour de meilleurs résultats.",
+  "scanQRLightningSetup": "Utilisez un bon éclairage pour améliorer la détection et la vitesse de numérisation."
 }

@@ -53,6 +53,15 @@ dependencies:
   # cached network image
   cached_network_image: ^3.4.1
 
+  # qr code scanner
+  mobile_scanner: ^7.1.3
+
+  #
+
+
+
+
+
 
 dev_dependencies:
   flutter_test:

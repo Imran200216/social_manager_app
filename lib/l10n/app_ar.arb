@@ -34,5 +34,9 @@
   "languagePreference": "تفضيل اللغة",
   "languagePreferenceDescription": "إدارة إعدادات لغة التطبيق",
   "chooseYourLanguage": "اختر لغتك",
-  "chooseYourLanguageDescription": "اختر لغة التطبيق التي تناسبك واستمتع بتجربة أكثر سلاسة وتخصيصًا."
+  "chooseYourLanguageDescription": "اختر لغة التطبيق التي تناسبك واستمتع بتجربة أكثر سلاسة وتخصيصًا.",
+  "scanQRCode": "مسح رمز الاستجابة السريعة",
+  "scanQRCodeTitle": "ضع رمز الاستجابة السريعة داخل الإطار",
+  "scanQRCodeSubTitle": "أمسك جهازك بثبات وتأكد من أن رمز الاستجابة السريعة مرئي بالكامل للحصول على أفضل النتائج.",
+  "scanQRLightningSetup": "استخدم إضاءة جيدة لتحسين سرعة ودقة المسح."
 }

@@ -34,5 +34,9 @@
   "languagePreference": "Language Preference",
   "languagePreferenceDescription": "Manage your app’s language settings",
   "chooseYourLanguage": "Choose your language",
-  "chooseYourLanguageDescription": "Pick your desired app language and enjoy a smoother, more personalized start."
+  "chooseYourLanguageDescription": "Pick your desired app language and enjoy a smoother, more personalized start.",
+  "scanQRCode": "Scan QR Code",
+  "scanQRCodeTitle": "Align the QR Code Inside the Frame",
+  "scanQRCodeSubTitle": "Keep your device steady and ensure the QR code is fully visible for best results.",
+  "scanQRLightningSetup": "Use good lighting to improve detection and scanning speed."
 }

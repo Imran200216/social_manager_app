@@ -314,6 +314,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Pick your desired app language and enjoy a smoother, more personalized start.'**
   String get chooseYourLanguageDescription;
+
+  /// No description provided for @scanQRCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR Code'**
+  String get scanQRCode;
+
+  /// No description provided for @scanQRCodeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Align the QR Code Inside the Frame'**
+  String get scanQRCodeTitle;
+
+  /// No description provided for @scanQRCodeSubTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep your device steady and ensure the QR code is fully visible for best results.'**
+  String get scanQRCodeSubTitle;
+
+  /// No description provided for @scanQRLightningSetup.
+  ///
+  /// In en, this message translates to:
+  /// **'Use good lighting to improve detection and scanning speed.'**
+  String get scanQRLightningSetup;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

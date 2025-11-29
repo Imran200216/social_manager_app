@@ -115,4 +115,16 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get chooseYourLanguageDescription => 'Sélectionnez la langue de l’application pour une expérience plus fluide et personnalisée.';
+
+  @override
+  String get scanQRCode => 'Scanner le code QR';
+
+  @override
+  String get scanQRCodeTitle => 'Alignez le code QR à l\'intérieur du cadre';
+
+  @override
+  String get scanQRCodeSubTitle => 'Gardez votre appareil stable et assurez-vous que le code QR est entièrement visible pour de meilleurs résultats.';
+
+  @override
+  String get scanQRLightningSetup => 'Utilisez un bon éclairage pour améliorer la détection et la vitesse de numérisation.';
 }
