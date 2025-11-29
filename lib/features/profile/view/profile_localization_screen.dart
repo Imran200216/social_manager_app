@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:social_manager_app/core/themes/app_color_themes.dart';
-import 'package:social_manager_app/core/utils/utils.dart';
+import 'package:social_manager_app/l10n/app_localizations.dart';
 import 'package:social_manager_app/commons/widgets/widgets.dart';
-import 'package:social_manager_app/features/localization/localization.dart';
 import 'package:social_manager_app/core/constants/constants.dart';
+import 'package:social_manager_app/core/utils/utils.dart';
+import 'package:social_manager_app/features/localization/localization.dart';
 
-class LocalizationScreen extends StatelessWidget {
-  const LocalizationScreen({super.key});
+class ProfileLocalizationScreen extends StatelessWidget {
+  const ProfileLocalizationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,58 +17,20 @@ class LocalizationScreen extends StatelessWidget {
     final isTablet = ResponsiveUtils.isTablet(context);
     final isMobile = ResponsiveUtils.isMobile(context);
 
+    // AppLocalization
+    final appLoc = AppLocalizations.of(context)!;
+
     return Directionality(
       textDirection: TextDirection.ltr,
       child: Scaffold(
         backgroundColor: AppColorThemes.whiteColor,
-        bottomSheet: BlocBuilder<LocalizationCubit, LocalizationState>(
-          builder: (context, state) {
-            final cubit = context.watch<LocalizationCubit>();
-            final isLangSelected = cubit.selectedLanguage != null;
-
-            return AnimatedContainer(
-              duration: const Duration(milliseconds: 250),
-              decoration: BoxDecoration(
-                color: AppColorThemes.whiteColor,
-                border: Border(
-                  top: BorderSide(
-                    color: AppColorThemes.subTitleColor.withOpacity(0.2),
-                    width: 1,
-                  ),
-                ),
-              ),
-              height: isLangSelected ? 90 : 0,
-              child: isLangSelected
-                  ? Center(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 20,
-                          vertical: 20,
-                        ),
-                        child: KFilledBtn(
-                          btnTitle: "Continue",
-                          btnBgColor: AppColorThemes.primaryColor,
-                          btnTitleColor: AppColorThemes.titleColor,
-                          onTap: () {
-                            // Navigate to OnBoarding Screen
-                            context.pushReplacementNamed(
-                              AppRouterConstants.onBoarding,
-                            );
-                          },
-                          borderRadius: 10,
-                          btnHeight: 55,
-                          btnWidth: double.maxFinite,
-                          fontSize: isMobile
-                              ? 16
-                              : isTablet
-                              ? 18
-                              : 20,
-                        ),
-                      ),
-                    )
-                  : const SizedBox.shrink(),
-            );
+        appBar: KAppBar(
+          onBack: () {
+            // Back
+            context.pop();
           },
+          title: appLoc.languagePreference,
+          centerTitle: false,
         ),
 
         body: SafeArea(
@@ -90,7 +53,7 @@ class LocalizationScreen extends StatelessWidget {
               children: [
                 // Title
                 KText(
-                  text: "Choose your language",
+                  text: appLoc.chooseYourLanguage,
                   textAlign: TextAlign.start,
                   color: AppColorThemes.titleColor,
                   fontWeight: FontWeight.w700,
@@ -105,8 +68,7 @@ class LocalizationScreen extends StatelessWidget {
 
                 // Sub Title
                 KText(
-                  text:
-                      "Pick your desired app language and enjoy a smoother, more personalized start.",
+                  text: appLoc.chooseYourLanguageDescription,
                   textAlign: TextAlign.start,
                   softWrap: true,
                   maxLines: 3,

@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:social_manager_app/features/auth/auth.dart';
 import 'package:social_manager_app/features/localization/localization.dart';
 import 'package:social_manager_app/features/on_boarding/on_boarding.dart';
+import 'package:social_manager_app/features/profile/profile.dart';
 import 'package:social_manager_app/features/splash/splash.dart';
 import 'package:social_manager_app/core/constants/constants.dart';
 import 'package:social_manager_app/features/bottom_nav/bottom_nav.dart';
@@ -53,6 +54,15 @@ GoRouter appRouter = GoRouter(
       name: AppRouterConstants.localization,
       builder: (context, state) {
         return LocalizationScreen();
+      },
+    ),
+
+    // Profile Localization Screen
+    GoRoute(
+      path: '/profileLocalization',
+      name: AppRouterConstants.profileLocalization,
+      builder: (context, state) {
+        return ProfileLocalizationScreen();
       },
     ),
   ],

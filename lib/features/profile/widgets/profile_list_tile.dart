@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:social_manager_app/core/themes/app_color_themes.dart';
 import 'package:social_manager_app/core/utils/utils.dart';
@@ -24,6 +25,11 @@ class ProfileListTile extends StatelessWidget {
     final isMobile = ResponsiveUtils.isMobile(context);
 
     return ListTile(
+      onTap: () {
+        HapticFeedback.heavyImpact();
+
+        onTap();
+      },
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
         side: BorderSide(

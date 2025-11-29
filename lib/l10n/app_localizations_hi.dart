@@ -58,4 +58,61 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get termsConsent => ' और\n सहमति देते हैं ';
+
+  @override
+  String get personalInfo => 'व्यक्तिगत जानकारी';
+
+  @override
+  String get personalInfoDescription => 'अपनी बुनियादी जानकारी प्रबंधित करें';
+
+  @override
+  String get shareApp => 'ऐप साझा करें';
+
+  @override
+  String get shareAppDescription => 'दूसरों को इस ऐप के बारे में बताएं';
+
+  @override
+  String get faq => 'अक्सर पूछे जाने वाले प्रश्न';
+
+  @override
+  String get faqDescription => 'ऐप के बारे में और जानें';
+
+  @override
+  String get contactSupport => 'सहायता से संपर्क करें';
+
+  @override
+  String get contactSupportDescription => 'किसी भी सहायता के लिए संपर्क करें';
+
+  @override
+  String get logout => 'लॉग आउट';
+
+  @override
+  String get logoutDescription => 'खाते से लॉग आउट करें';
+
+  @override
+  String get home => 'होम';
+
+  @override
+  String get profile => 'प्रोफ़ाइल';
+
+  @override
+  String get connections => 'कनेक्शंस';
+
+  @override
+  String get scan => 'स्कैन';
+
+  @override
+  String get privacyPolicyDescription => 'जानें कि हम आपके डेटा का उपयोग और उसे सुरक्षित कैसे करते हैं';
+
+  @override
+  String get languagePreference => 'भाषा वरीयता';
+
+  @override
+  String get languagePreferenceDescription => 'अपने ऐप की भाषा सेटिंग्स प्रबंधित करें';
+
+  @override
+  String get chooseYourLanguage => 'अपनी भाषा चुनें';
+
+  @override
+  String get chooseYourLanguageDescription => 'अपनी पसंदीदा ऐप भाषा चुनें और एक सहज व व्यक्तिगत अनुभव पाएं।';
 }

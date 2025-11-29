@@ -9,6 +9,7 @@ import 'package:social_manager_app/features/scan/scan.dart';
 import 'package:social_manager_app/core/constants/constants.dart';
 import 'package:social_manager_app/features/home/home.dart';
 import 'package:social_manager_app/features/profile/profile.dart';
+import 'package:social_manager_app/l10n/app_localizations.dart';
 
 class BottomNav extends StatelessWidget {
   const BottomNav({super.key});
@@ -26,6 +27,9 @@ class BottomNav extends StatelessWidget {
     // Responsive
     final isTablet = ResponsiveUtils.isTablet(context);
     final isMobile = ResponsiveUtils.isMobile(context);
+
+    // AppLocalization
+    final appLoc = AppLocalizations.of(context)!;
 
     return BlocBuilder<BottomNavCubit, BottomNavState>(
       builder: (context, state) {
@@ -88,7 +92,7 @@ class BottomNav extends StatelessWidget {
                     fit: BoxFit.cover,
                     color: AppColorThemes.subTitleColor,
                   ),
-                  label: 'Home',
+                  label: appLoc.home,
                 ),
 
                 // Scan
@@ -113,7 +117,7 @@ class BottomNav extends StatelessWidget {
                         : 32,
                     fit: BoxFit.cover,
                   ),
-                  label: 'Scan',
+                  label: appLoc.scan,
                 ),
 
                 // History
@@ -138,7 +142,7 @@ class BottomNav extends StatelessWidget {
                     fit: BoxFit.cover,
                     color: AppColorThemes.subTitleColor,
                   ),
-                  label: 'Connections',
+                  label: appLoc.connections,
                 ),
 
                 // Profile
@@ -163,7 +167,7 @@ class BottomNav extends StatelessWidget {
                     fit: BoxFit.cover,
                     color: AppColorThemes.subTitleColor,
                   ),
-                  label: 'Profile',
+                  label: appLoc.profile,
                 ),
               ],
             ),

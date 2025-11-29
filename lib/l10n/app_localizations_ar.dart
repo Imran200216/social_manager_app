@@ -58,4 +58,61 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get termsConsent => ' و\n توافق على ';
+
+  @override
+  String get personalInfo => 'المعلومات الشخصية';
+
+  @override
+  String get personalInfoDescription => 'إدارة تفاصيلك الأساسية';
+
+  @override
+  String get shareApp => 'مشاركة التطبيق';
+
+  @override
+  String get shareAppDescription => 'دع الآخرين يكتشفون هذا التطبيق';
+
+  @override
+  String get faq => 'الأسئلة الشائعة';
+
+  @override
+  String get faqDescription => 'تعرّف على المزيد حول التطبيق';
+
+  @override
+  String get contactSupport => 'اتصل بالدعم';
+
+  @override
+  String get contactSupportDescription => 'تواصل للحصول على أي مساعدة';
+
+  @override
+  String get logout => 'تسجيل الخروج';
+
+  @override
+  String get logoutDescription => 'تسجيل الخروج من الحساب';
+
+  @override
+  String get home => 'الصفحة الرئيسية';
+
+  @override
+  String get profile => 'الملف الشخصي';
+
+  @override
+  String get connections => 'الاتصالات';
+
+  @override
+  String get scan => 'مسح';
+
+  @override
+  String get privacyPolicyDescription => 'تعرف على كيفية استخدام بياناتك وتأمينها';
+
+  @override
+  String get languagePreference => 'تفضيل اللغة';
+
+  @override
+  String get languagePreferenceDescription => 'إدارة إعدادات لغة التطبيق';
+
+  @override
+  String get chooseYourLanguage => 'اختر لغتك';
+
+  @override
+  String get chooseYourLanguageDescription => 'اختر لغة التطبيق التي تناسبك واستمتع بتجربة أكثر سلاسة وتخصيصًا.';
 }

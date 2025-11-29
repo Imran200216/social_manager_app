@@ -15,6 +15,24 @@
   "termsPara": "En continuant, vous confirmez avoir lu et accepté les ",
   "termsOfService": "Conditions d’utilisation",
   "privacyPolicy": "Politique de confidentialité",
-  "termsConsent" : " et\n vous consentez à "
-
+  "termsConsent" : " et\n vous consentez à ",
+  "personalInfo": "Informations personnelles",
+  "personalInfoDescription": "Gérez vos informations de base",
+  "shareApp": "Partager l'application",
+  "shareAppDescription": "Faites découvrir cette application aux autres",
+  "faq": "FAQ",
+  "faqDescription": "En savoir plus sur l'application",
+  "contactSupport": "Contacter le support",
+  "contactSupportDescription": "Contactez-nous pour toute assistance",
+  "logout": "Se déconnecter",
+  "logoutDescription": "Déconnectez-vous du compte",
+  "home": "Accueil",
+  "profile": "Profil",
+  "connections": "Connexions",
+  "scan": "Scanner",
+  "privacyPolicyDescription": "Découvrez comment nous utilisons et protégeons vos données",
+  "languagePreference": "Préférence de langue",
+  "languagePreferenceDescription": "Gérez les paramètres de langue de votre application",
+  "chooseYourLanguage": "Choisissez votre langue",
+  "chooseYourLanguageDescription": "Sélectionnez la langue de l’application pour une expérience plus fluide et personnalisée."
 }

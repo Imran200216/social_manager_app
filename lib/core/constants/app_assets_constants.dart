@@ -26,6 +26,8 @@ class AppAssetsConstants {
   static const String faq = "assets/icons/svg/faq.svg";
   static const String support = "assets/icons/svg/support.svg";
   static const String logout = "assets/icons/svg/logout.svg";
+  static const String privacyPolicy = "assets/icons/svg/privacy-policy.svg";
+  static const String language = "assets/icons/svg/language.svg";
 
   // Bottom Nav Icons
   static const String homeOutlined = "assets/icons/svg/home-outlined.svg";

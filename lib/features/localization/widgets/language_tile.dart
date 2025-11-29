@@ -13,7 +13,8 @@ class LanguageTile extends StatelessWidget {
   final Color bgColor;
   final Color borderColor;
   final Color textColor;
-
+  final Color checkColor;
+  final Color checkBoxBorderColor;
 
   const LanguageTile({
     super.key,
@@ -24,6 +25,8 @@ class LanguageTile extends StatelessWidget {
     required this.bgColor,
     required this.borderColor,
     required this.textColor,
+    required this.checkColor,
+    required this.checkBoxBorderColor,
   });
 
   @override
@@ -58,8 +61,10 @@ class LanguageTile extends StatelessWidget {
         ),
         activeColor: AppColorThemes.primaryTextColor,
         // you can also make this configurable
-        checkboxShape: const CircleBorder(),
-        checkColor: Colors.white,
+        checkboxShape: CircleBorder(
+          side: BorderSide(color: checkBoxBorderColor),
+        ),
+        checkColor: checkColor,
 
         secondary: ClipRRect(
           borderRadius: BorderRadius.circular(4),

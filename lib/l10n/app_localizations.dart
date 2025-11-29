@@ -200,6 +200,120 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **' and\n consent to the '**
   String get termsConsent;
+
+  /// No description provided for @personalInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'Personal Info'**
+  String get personalInfo;
+
+  /// No description provided for @personalInfoDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage your basic details'**
+  String get personalInfoDescription;
+
+  /// No description provided for @shareApp.
+  ///
+  /// In en, this message translates to:
+  /// **'Share App'**
+  String get shareApp;
+
+  /// No description provided for @shareAppDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Let others discover this app'**
+  String get shareAppDescription;
+
+  /// No description provided for @faq.
+  ///
+  /// In en, this message translates to:
+  /// **'FAQ\'s'**
+  String get faq;
+
+  /// No description provided for @faqDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn more about the app'**
+  String get faqDescription;
+
+  /// No description provided for @contactSupport.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact Support'**
+  String get contactSupport;
+
+  /// No description provided for @contactSupportDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Reach out for any support'**
+  String get contactSupportDescription;
+
+  /// No description provided for @logout.
+  ///
+  /// In en, this message translates to:
+  /// **'Logout'**
+  String get logout;
+
+  /// No description provided for @logoutDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Reach out for any support'**
+  String get logoutDescription;
+
+  /// No description provided for @home.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get home;
+
+  /// No description provided for @profile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profile;
+
+  /// No description provided for @connections.
+  ///
+  /// In en, this message translates to:
+  /// **'Connections'**
+  String get connections;
+
+  /// No description provided for @scan.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan'**
+  String get scan;
+
+  /// No description provided for @privacyPolicyDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Know how we use and secure your data'**
+  String get privacyPolicyDescription;
+
+  /// No description provided for @languagePreference.
+  ///
+  /// In en, this message translates to:
+  /// **'Language Preference'**
+  String get languagePreference;
+
+  /// No description provided for @languagePreferenceDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage your app’s language settings'**
+  String get languagePreferenceDescription;
+
+  /// No description provided for @chooseYourLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your language'**
+  String get chooseYourLanguage;
+
+  /// No description provided for @chooseYourLanguageDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick your desired app language and enjoy a smoother, more personalized start.'**
+  String get chooseYourLanguageDescription;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

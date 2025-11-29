@@ -58,4 +58,61 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get termsConsent => ' et\n vous consentez à ';
+
+  @override
+  String get personalInfo => 'Informations personnelles';
+
+  @override
+  String get personalInfoDescription => 'Gérez vos informations de base';
+
+  @override
+  String get shareApp => 'Partager l\'application';
+
+  @override
+  String get shareAppDescription => 'Faites découvrir cette application aux autres';
+
+  @override
+  String get faq => 'FAQ';
+
+  @override
+  String get faqDescription => 'En savoir plus sur l\'application';
+
+  @override
+  String get contactSupport => 'Contacter le support';
+
+  @override
+  String get contactSupportDescription => 'Contactez-nous pour toute assistance';
+
+  @override
+  String get logout => 'Se déconnecter';
+
+  @override
+  String get logoutDescription => 'Déconnectez-vous du compte';
+
+  @override
+  String get home => 'Accueil';
+
+  @override
+  String get profile => 'Profil';
+
+  @override
+  String get connections => 'Connexions';
+
+  @override
+  String get scan => 'Scanner';
+
+  @override
+  String get privacyPolicyDescription => 'Découvrez comment nous utilisons et protégeons vos données';
+
+  @override
+  String get languagePreference => 'Préférence de langue';
+
+  @override
+  String get languagePreferenceDescription => 'Gérez les paramètres de langue de votre application';
+
+  @override
+  String get chooseYourLanguage => 'Choisissez votre langue';
+
+  @override
+  String get chooseYourLanguageDescription => 'Sélectionnez la langue de l’application pour une expérience plus fluide et personnalisée.';
 }

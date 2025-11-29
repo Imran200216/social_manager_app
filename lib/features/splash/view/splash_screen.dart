@@ -31,17 +31,40 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: AppColorThemes.primaryColor,
 
-      body: Center(
-        child: KText(
-          text: "Fineed",
-          color: AppColorThemes.titleColor,
-          fontWeight: FontWeight.w700,
-          fontSize: isMobile
-              ? 22
-              : isTablet
-              ? 24
-              : 28,
-        ),
+      body: Stack(
+        children: [
+          Align(
+            alignment: Alignment.center,
+            child: KText(
+              text: "Fineed",
+              color: AppColorThemes.titleColor,
+              fontWeight: FontWeight.w700,
+              fontSize: isMobile
+                  ? 22
+                  : isTablet
+                  ? 24
+                  : 28,
+            ),
+          ),
+
+          Positioned(
+            bottom: 30,
+            left: 0,
+            right: 0,
+            child: Center(
+              child: KText(
+                text: "V 1.0.0",
+                color: AppColorThemes.titleColor,
+                fontWeight: FontWeight.w700,
+                fontSize: isMobile
+                    ? 14
+                    : isTablet
+                    ? 16
+                    : 18,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

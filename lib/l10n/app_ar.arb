@@ -15,7 +15,24 @@
   "termsPara": "بالمتابعة، أنت تؤكد أنك قرأت ووافقت على ",
   "termsOfService": "شروط الخدمة",
   "privacyPolicy": "سياسة الخصوصية",
-  "termsConsent" : " و\n توافق على "
-
-
+  "termsConsent": " و\n توافق على ",
+  "personalInfo": "المعلومات الشخصية",
+  "personalInfoDescription": "إدارة تفاصيلك الأساسية",
+  "shareApp": "مشاركة التطبيق",
+  "shareAppDescription": "دع الآخرين يكتشفون هذا التطبيق",
+  "faq": "الأسئلة الشائعة",
+  "faqDescription": "تعرّف على المزيد حول التطبيق",
+  "contactSupport": "اتصل بالدعم",
+  "contactSupportDescription": "تواصل للحصول على أي مساعدة",
+  "logout": "تسجيل الخروج",
+  "logoutDescription": "تسجيل الخروج من الحساب",
+  "home": "الصفحة الرئيسية",
+  "profile": "الملف الشخصي",
+  "connections": "الاتصالات",
+  "scan": "مسح",
+  "privacyPolicyDescription": "تعرف على كيفية استخدام بياناتك وتأمينها",
+  "languagePreference": "تفضيل اللغة",
+  "languagePreferenceDescription": "إدارة إعدادات لغة التطبيق",
+  "chooseYourLanguage": "اختر لغتك",
+  "chooseYourLanguageDescription": "اختر لغة التطبيق التي تناسبك واستمتع بتجربة أكثر سلاسة وتخصيصًا."
 }

@@ -58,4 +58,61 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get termsConsent => ' and\n consent to the ';
+
+  @override
+  String get personalInfo => 'Personal Info';
+
+  @override
+  String get personalInfoDescription => 'Manage your basic details';
+
+  @override
+  String get shareApp => 'Share App';
+
+  @override
+  String get shareAppDescription => 'Let others discover this app';
+
+  @override
+  String get faq => 'FAQ\'s';
+
+  @override
+  String get faqDescription => 'Learn more about the app';
+
+  @override
+  String get contactSupport => 'Contact Support';
+
+  @override
+  String get contactSupportDescription => 'Reach out for any support';
+
+  @override
+  String get logout => 'Logout';
+
+  @override
+  String get logoutDescription => 'Reach out for any support';
+
+  @override
+  String get home => 'Home';
+
+  @override
+  String get profile => 'Profile';
+
+  @override
+  String get connections => 'Connections';
+
+  @override
+  String get scan => 'Scan';
+
+  @override
+  String get privacyPolicyDescription => 'Know how we use and secure your data';
+
+  @override
+  String get languagePreference => 'Language Preference';
+
+  @override
+  String get languagePreferenceDescription => 'Manage your app’s language settings';
+
+  @override
+  String get chooseYourLanguage => 'Choose your language';
+
+  @override
+  String get chooseYourLanguageDescription => 'Pick your desired app language and enjoy a smoother, more personalized start.';
 }

@@ -15,6 +15,24 @@
   "termsPara": "जारी रखते हुए, आप पुष्टि करते हैं कि आपने पढ़ा है और सहमत हैं ",
   "termsOfService": "सेवा की शर्तें",
   "privacyPolicy": "गोपनीयता नीति",
-  "termsConsent" : " और\n सहमति देते हैं "
-
+  "termsConsent" : " और\n सहमति देते हैं ",
+  "personalInfo": "व्यक्तिगत जानकारी",
+  "personalInfoDescription": "अपनी बुनियादी जानकारी प्रबंधित करें",
+  "shareApp": "ऐप साझा करें",
+  "shareAppDescription": "दूसरों को इस ऐप के बारे में बताएं",
+  "faq": "अक्सर पूछे जाने वाले प्रश्न",
+  "faqDescription": "ऐप के बारे में और जानें",
+  "contactSupport": "सहायता से संपर्क करें",
+  "contactSupportDescription": "किसी भी सहायता के लिए संपर्क करें",
+  "logout": "लॉग आउट",
+  "logoutDescription": "खाते से लॉग आउट करें",
+  "home": "होम",
+  "profile": "प्रोफ़ाइल",
+  "connections": "कनेक्शंस",
+  "scan": "स्कैन",
+  "privacyPolicyDescription": "जानें कि हम आपके डेटा का उपयोग और उसे सुरक्षित कैसे करते हैं",
+  "languagePreference": "भाषा वरीयता",
+  "languagePreferenceDescription": "अपने ऐप की भाषा सेटिंग्स प्रबंधित करें",
+  "chooseYourLanguage": "अपनी भाषा चुनें",
+  "chooseYourLanguageDescription": "अपनी पसंदीदा ऐप भाषा चुनें और एक सहज व व्यक्तिगत अनुभव पाएं।"
 }
