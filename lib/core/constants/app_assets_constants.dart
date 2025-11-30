@@ -38,4 +38,8 @@ class AppAssetsConstants {
   static const String historyFilled = "assets/icons/svg/history-filled.svg";
   static const String profileOutlined = "assets/icons/svg/profile-outlined.svg";
   static const String profileFilled = "assets/icons/svg/profile-filled.svg";
+  static const String digitalCardFilled =
+      "assets/icons/svg/digital-card-filled.svg";
+  static const String digitalCardOutlined =
+      "assets/icons/svg/digital-card-outlined.svg";
 }

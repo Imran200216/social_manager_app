@@ -69,7 +69,7 @@ class _ScannerScreenState extends State<ScannerScreen> {
             ),
 
             Expanded(
-              flex: 1,
+              flex: 2,
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 child: Column(
@@ -117,7 +117,7 @@ class _ScannerScreenState extends State<ScannerScreen> {
                       ),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
-                        color: AppColorThemes.primaryColor.withOpacity(0.2),
+                        color: AppColorThemes.primaryColor.withOpacity(0.15),
                       ),
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.center,

@@ -50,7 +50,7 @@ class ProfileListTile extends StatelessWidget {
             : 52,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-          color: AppColorThemes.primaryColor.withOpacity(0.3),
+          color: AppColorThemes.primaryColor.withOpacity(0.15),
         ),
         child: Center(
           child: SvgPicture.asset(
@@ -60,7 +60,7 @@ class ProfileListTile extends StatelessWidget {
                 ? 22
                 : 28,
             leadingSvgPath,
-            color: AppColorThemes.secondaryColor,
+            color: AppColorThemes.primaryColor,
           ),
         ),
       ),

@@ -45,7 +45,7 @@ class KAppBar extends StatelessWidget implements PreferredSizeWidget {
           title,
           style: TextStyle(
             fontWeight: fontWeight ?? FontWeight.w700,
-            color: titleColor ?? AppColorThemes.secondaryColor,
+            color: titleColor ?? AppColorThemes.whiteColor,
             fontFamily: "Lato",
             fontSize:
                 fontSize ??
@@ -90,7 +90,7 @@ class KAppBar extends StatelessWidget implements PreferredSizeWidget {
           onPressed: onBack ?? () => Navigator.pop(context),
           icon: Icon(
             Platform.isIOS ? Icons.arrow_back_ios : Icons.arrow_back,
-            color: AppColorThemes.secondaryColor,
+            color: AppColorThemes.whiteColor,
           ),
         ),
 

@@ -37,7 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
             alignment: Alignment.center,
             child: KText(
               text: "Fineed",
-              color: AppColorThemes.titleColor,
+              color: AppColorThemes.whiteColor,
               fontWeight: FontWeight.w700,
               fontSize: isMobile
                   ? 22
@@ -54,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
             child: Center(
               child: KText(
                 text: "V 1.0.0",
-                color: AppColorThemes.titleColor,
+                color: AppColorThemes.whiteColor,
                 fontWeight: FontWeight.w700,
                 fontSize: isMobile
                     ? 14

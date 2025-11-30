@@ -1,0 +1,1 @@
+export 'view/digital_card_screen.dart';

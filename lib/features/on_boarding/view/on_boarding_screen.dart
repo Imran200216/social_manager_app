@@ -49,7 +49,6 @@ class OnBoardingScreen extends StatelessWidget {
           children: [
             const Spacer(flex: 1),
 
-            // ⬇️ BlocListener only for PageView ⬇️
             BlocListener<OnBoardingBloc, OnBoardingState>(
               listener: (context, state) {
                 pageController.animateToPage(
@@ -121,7 +120,7 @@ class OnBoardingScreen extends StatelessWidget {
                         ? 22
                         : 24,
                     spacing: 8,
-                    activeDotColor: AppColorThemes.titleColor,
+                    activeDotColor: AppColorThemes.primaryColor,
                     dotColor: AppColorThemes.subTitleColor.withOpacity(0.3),
                   ),
                 );
@@ -160,7 +159,7 @@ class OnBoardingScreen extends StatelessWidget {
                 return KFilledBtn(
                   btnTitle: isLast ? appLoc.getStarted : appLoc.next,
                   btnBgColor: AppColorThemes.primaryColor,
-                  btnTitleColor: AppColorThemes.titleColor,
+                  btnTitleColor: AppColorThemes.whiteColor,
                   onTap: () {
                     if (!isLast) {
                       context.read<OnBoardingBloc>().add(

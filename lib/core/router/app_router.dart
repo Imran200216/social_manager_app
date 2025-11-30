@@ -3,6 +3,7 @@ import 'package:social_manager_app/features/auth/auth.dart';
 import 'package:social_manager_app/features/localization/localization.dart';
 import 'package:social_manager_app/features/on_boarding/on_boarding.dart';
 import 'package:social_manager_app/features/profile/profile.dart';
+import 'package:social_manager_app/features/scan/scan.dart';
 import 'package:social_manager_app/features/splash/splash.dart';
 import 'package:social_manager_app/core/constants/constants.dart';
 import 'package:social_manager_app/features/bottom_nav/bottom_nav.dart';
@@ -63,6 +64,15 @@ GoRouter appRouter = GoRouter(
       name: AppRouterConstants.profileLocalization,
       builder: (context, state) {
         return ProfileLocalizationScreen();
+      },
+    ),
+
+    // Scan Screen
+    GoRoute(
+      path: '/scanner',
+      name: AppRouterConstants.scanner,
+      builder: (context, state) {
+        return ScannerScreen();
       },
     ),
   ],

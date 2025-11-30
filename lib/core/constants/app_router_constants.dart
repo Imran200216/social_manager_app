@@ -16,4 +16,7 @@ class AppRouterConstants {
 
   // Profile Localization
   static const String profileLocalization = "profileLocalization";
+
+  // Scanner
+  static const String scanner = "scanner";
 }

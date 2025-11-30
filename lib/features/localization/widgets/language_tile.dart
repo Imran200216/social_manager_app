@@ -59,7 +59,7 @@ class LanguageTile extends StatelessWidget {
             fontFamily: "Lato",
           ),
         ),
-        activeColor: AppColorThemes.primaryTextColor,
+        activeColor: AppColorThemes.whiteColor,
         // you can also make this configurable
         checkboxShape: CircleBorder(
           side: BorderSide(color: checkBoxBorderColor),

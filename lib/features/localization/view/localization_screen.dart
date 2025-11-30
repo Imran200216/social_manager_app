@@ -47,7 +47,7 @@ class LocalizationScreen extends StatelessWidget {
                         child: KFilledBtn(
                           btnTitle: "Continue",
                           btnBgColor: AppColorThemes.primaryColor,
-                          btnTitleColor: AppColorThemes.titleColor,
+                          btnTitleColor: AppColorThemes.whiteColor,
                           onTap: () {
                             // Navigate to OnBoarding Screen
                             context.pushReplacementNamed(
@@ -139,11 +139,13 @@ class LocalizationScreen extends StatelessWidget {
                               ? AppColorThemes.primaryColor
                               : AppColorThemes.whiteColor,
                           borderColor: selectedLang == "en"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.whiteColor
                               : AppColorThemes.subTitleColor.withOpacity(0.2),
-                          textColor: AppColorThemes.titleColor,
+                          textColor: selectedLang == "en"
+                              ? AppColorThemes.whiteColor
+                              : AppColorThemes.titleColor,
                           checkColor: selectedLang == "en"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.primaryColor
                               : AppColorThemes.subTitleColor,
                           checkBoxBorderColor: selectedLang == "en"
                               ? AppColorThemes.secondaryColor
@@ -160,11 +162,13 @@ class LocalizationScreen extends StatelessWidget {
                               ? AppColorThemes.primaryColor
                               : AppColorThemes.whiteColor,
                           borderColor: selectedLang == "hi"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.whiteColor
                               : AppColorThemes.subTitleColor.withOpacity(0.2),
-                          textColor: AppColorThemes.titleColor,
+                          textColor: selectedLang == "hi"
+                              ? AppColorThemes.whiteColor
+                              : AppColorThemes.titleColor,
                           checkColor: selectedLang == "hi"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.primaryColor
                               : AppColorThemes.subTitleColor,
                           checkBoxBorderColor: selectedLang == "hi"
                               ? AppColorThemes.secondaryColor
@@ -181,11 +185,13 @@ class LocalizationScreen extends StatelessWidget {
                               ? AppColorThemes.primaryColor
                               : AppColorThemes.whiteColor,
                           borderColor: selectedLang == "ar"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.whiteColor
                               : AppColorThemes.subTitleColor.withOpacity(0.2),
-                          textColor: AppColorThemes.titleColor,
+                          textColor: selectedLang == "ar"
+                              ? AppColorThemes.whiteColor
+                              : AppColorThemes.titleColor,
                           checkColor: selectedLang == "ar"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.primaryColor
                               : AppColorThemes.subTitleColor,
                           checkBoxBorderColor: selectedLang == "ar"
                               ? AppColorThemes.secondaryColor
@@ -202,11 +208,13 @@ class LocalizationScreen extends StatelessWidget {
                               ? AppColorThemes.primaryColor
                               : AppColorThemes.whiteColor,
                           borderColor: selectedLang == "fr"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.whiteColor
                               : AppColorThemes.subTitleColor.withOpacity(0.2),
-                          textColor: AppColorThemes.titleColor,
+                          textColor: selectedLang == "fr"
+                              ? AppColorThemes.whiteColor
+                              : AppColorThemes.titleColor,
                           checkColor: selectedLang == "fr"
-                              ? AppColorThemes.secondaryColor
+                              ? AppColorThemes.primaryColor
                               : AppColorThemes.subTitleColor,
                           checkBoxBorderColor: selectedLang == "fr"
                               ? AppColorThemes.secondaryColor

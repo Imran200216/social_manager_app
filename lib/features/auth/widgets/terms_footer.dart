@@ -16,7 +16,7 @@ class TermsFooter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final primary = AppColorThemes.primaryTextColor;
+    final primary = AppColorThemes.primaryColor;
 
     // Responsive
     final isTablet = ResponsiveUtils.isTablet(context);

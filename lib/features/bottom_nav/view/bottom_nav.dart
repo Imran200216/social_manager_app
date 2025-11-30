@@ -5,7 +5,7 @@ import 'package:social_manager_app/core/themes/app_color_themes.dart';
 import 'package:social_manager_app/core/utils/utils.dart';
 import 'package:social_manager_app/features/bottom_nav/bottom_nav.dart';
 import 'package:social_manager_app/features/connections/connections.dart';
-import 'package:social_manager_app/features/scan/scan.dart';
+import 'package:social_manager_app/features/digital_card/digital_card.dart';
 import 'package:social_manager_app/core/constants/constants.dart';
 import 'package:social_manager_app/features/home/home.dart';
 import 'package:social_manager_app/features/profile/profile.dart';
@@ -16,19 +16,15 @@ class BottomNav extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Screens
     final List<Widget> screens = [
       const HomeScreen(),
-      const ScannerScreen(),
+      const DigitalCardScreen(),
       const ConnectionsScreen(),
       const ProfileScreen(),
     ];
 
-    // Responsive
     final isTablet = ResponsiveUtils.isTablet(context);
     final isMobile = ResponsiveUtils.isMobile(context);
-
-    // AppLocalization
     final appLoc = AppLocalizations.of(context)!;
 
     return BlocBuilder<BottomNavCubit, BottomNavState>(
@@ -39,137 +35,147 @@ class BottomNav extends StatelessWidget {
 
         return Scaffold(
           backgroundColor: AppColorThemes.whiteColor,
+
           body: SafeArea(
             child: IndexedStack(index: selectedIndex, children: screens),
           ),
 
           bottomNavigationBar: Directionality(
             textDirection: TextDirection.ltr,
-            child: BottomNavigationBar(
-              backgroundColor: AppColorThemes.primaryColor.withOpacity(0.3),
-              elevation: 0,
-              currentIndex: selectedIndex,
-              type: BottomNavigationBarType.fixed,
-              selectedItemColor: AppColorThemes.secondaryColor,
-              unselectedItemColor: AppColorThemes.subTitleColor,
-              showSelectedLabels: true,
-              showUnselectedLabels: true,
-              selectedLabelStyle: TextStyle(
-                fontFamily: "Lato",
-                fontWeight: FontWeight.w600,
-                color: AppColorThemes.secondaryColor,
+            child: Container(
+              decoration: BoxDecoration(
+                border: Border(
+                  top: BorderSide(
+                    color: AppColorThemes.subTitleColor.withOpacity(0.2),
+                    // TOP BORDER
+                    width: 1,
+                  ),
+                ),
               ),
-              unselectedLabelStyle: TextStyle(
-                fontFamily: "Lato",
-                fontWeight: FontWeight.w600,
-                color: AppColorThemes.subTitleColor,
+              child: NavigationBarTheme(
+                data: NavigationBarThemeData(
+                  backgroundColor: AppColorThemes.whiteColor,
+                  indicatorColor: AppColorThemes.primaryColor.withOpacity(0.15),
+
+                  labelTextStyle: MaterialStateProperty.resolveWith(
+                    (states) => TextStyle(
+                      fontFamily: "Lato",
+                      fontWeight: FontWeight.w600,
+                      fontSize: 13,
+                      color: states.contains(MaterialState.selected)
+                          ? AppColorThemes.primaryColor
+                          : AppColorThemes.secondaryColor,
+                    ),
+                  ),
+                ),
+                child: NavigationBar(
+                  height: isMobile
+                      ? 65
+                      : isTablet
+                      ? 75
+                      : 85,
+                  elevation: 0,
+                  selectedIndex: selectedIndex,
+                  onDestinationSelected: (index) {
+                    context.read<BottomNavCubit>().selectBottomNav(index);
+                  },
+                  labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+
+                  destinations: [
+                    // Home
+                    NavigationDestination(
+                      icon: SvgPicture.asset(
+                        AppAssetsConstants.homeOutlined,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.secondaryColor,
+                      ),
+                      selectedIcon: SvgPicture.asset(
+                        AppAssetsConstants.homeFilled,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.primaryColor,
+                      ),
+                      label: appLoc.home,
+                    ),
+
+                    // Scan
+                    NavigationDestination(
+                      icon: SvgPicture.asset(
+                        AppAssetsConstants.digitalCardOutlined,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.secondaryColor,
+                      ),
+                      selectedIcon: SvgPicture.asset(
+                        AppAssetsConstants.digitalCardFilled,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.primaryColor,
+                      ),
+                      label: "Digi Card",
+                    ),
+
+                    // Connections
+                    NavigationDestination(
+                      icon: SvgPicture.asset(
+                        AppAssetsConstants.historyOutlined,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.secondaryColor,
+                      ),
+                      selectedIcon: SvgPicture.asset(
+                        AppAssetsConstants.historyFilled,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.primaryColor,
+                      ),
+                      label: appLoc.connections,
+                    ),
+
+                    // Profile
+                    NavigationDestination(
+                      icon: SvgPicture.asset(
+                        AppAssetsConstants.profileOutlined,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.secondaryColor,
+                      ),
+                      selectedIcon: SvgPicture.asset(
+                        AppAssetsConstants.profileFilled,
+                        height: isMobile
+                            ? 28
+                            : isTablet
+                            ? 30
+                            : 32,
+                        color: AppColorThemes.primaryColor,
+                      ),
+                      label: appLoc.profile,
+                    ),
+                  ],
+                ),
               ),
-              selectedFontSize: 13,
-              unselectedFontSize: 13,
-              onTap: (index) {
-                context.read<BottomNavCubit>().selectBottomNav(index);
-              },
-              items: [
-                // Home
-                BottomNavigationBarItem(
-                  activeIcon: SvgPicture.asset(
-                    AppAssetsConstants.homeFilled,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                    color: AppColorThemes.secondaryColor,
-                  ),
-                  icon: SvgPicture.asset(
-                    AppAssetsConstants.homeOutlined,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                    color: AppColorThemes.subTitleColor,
-                  ),
-                  label: appLoc.home,
-                ),
-
-                // Scan
-                BottomNavigationBarItem(
-                  activeIcon: SvgPicture.asset(
-                    AppAssetsConstants.scanFilled,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                    color: AppColorThemes.secondaryColor,
-                  ),
-                  icon: SvgPicture.asset(
-                    AppAssetsConstants.scanOutlined,
-                    color: AppColorThemes.subTitleColor,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                  ),
-                  label: appLoc.scan,
-                ),
-
-                // History
-                BottomNavigationBarItem(
-                  activeIcon: SvgPicture.asset(
-                    AppAssetsConstants.historyFilled,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                    color: AppColorThemes.secondaryColor,
-                  ),
-                  icon: SvgPicture.asset(
-                    AppAssetsConstants.historyOutlined,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                    color: AppColorThemes.subTitleColor,
-                  ),
-                  label: appLoc.connections,
-                ),
-
-                // Profile
-                BottomNavigationBarItem(
-                  activeIcon: SvgPicture.asset(
-                    AppAssetsConstants.profileFilled,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                    color: AppColorThemes.secondaryColor,
-                  ),
-                  icon: SvgPicture.asset(
-                    AppAssetsConstants.profileOutlined,
-                    height: isMobile
-                        ? 28
-                        : isTablet
-                        ? 30
-                        : 32,
-                    fit: BoxFit.cover,
-                    color: AppColorThemes.subTitleColor,
-                  ),
-                  label: appLoc.profile,
-                ),
-              ],
             ),
           ),
         );
