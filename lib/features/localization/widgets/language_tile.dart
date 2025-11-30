@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:social_manager_app/core/themes/app_color_themes.dart';
 import 'package:social_manager_app/core/utils/utils.dart';
@@ -45,7 +46,12 @@ class LanguageTile extends StatelessWidget {
       ),
       child: CheckboxListTile(
         value: value,
-        onChanged: onChanged,
+        onChanged: (bool? newValue) {
+          // Add haptic feedback
+          HapticFeedback.selectionClick();
+          // Call the original callback
+          onChanged(newValue);
+        },
         title: Text(
           title,
           style: TextStyle(

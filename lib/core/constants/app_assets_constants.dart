@@ -28,6 +28,20 @@ class AppAssetsConstants {
   static const String logout = "assets/icons/svg/logout.svg";
   static const String privacyPolicy = "assets/icons/svg/privacy-policy.svg";
   static const String language = "assets/icons/svg/language.svg";
+  static const String refresh = "assets/icons/svg/refresh.svg";
+  static const String view = "assets/icons/svg/view.svg";
+
+  // No Content Founds
+  static const String noInternetFound =
+      "assets/images/svg/no-internet-found.svg";
+  static const String noSearchFound = "assets/images/svg/no-search-found.svg";
+  static const String noDataFound = "assets/images/svg/no-data-found.svg";
+  static const String noDigitalCardFound =
+      "assets/images/svg/no-digital-card-found.svg";
+  static const String noConnectionsFound =
+      "assets/images/svg/no-connections-found.svg";
+  static const String somethingWentWrong =
+      "assets/images/svg/something-went-wrong.svg";
 
   // Bottom Nav Icons
   static const String homeOutlined = "assets/icons/svg/home-outlined.svg";
@@ -42,4 +56,8 @@ class AppAssetsConstants {
       "assets/icons/svg/digital-card-filled.svg";
   static const String digitalCardOutlined =
       "assets/icons/svg/digital-card-outlined.svg";
+  static const String connectionsOutlined =
+      "assets/icons/svg/connections-outlined.svg";
+  static const String connectionsFilled =
+      "assets/icons/svg/connections-filled.svg";
 }

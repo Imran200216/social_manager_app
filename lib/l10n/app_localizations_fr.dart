@@ -127,4 +127,118 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get scanQRLightningSetup => 'Utilisez un bon éclairage pour améliorer la détection et la vitesse de numérisation.';
+
+  @override
+  String get yourConnections => 'Vos connexions';
+
+  @override
+  String get noConnectionsFound => 'Aucune connexion ajoutée pour le moment. Veuillez demander à vos amis de vous ajouter en tant que connexion.';
+
+  @override
+  String get yourDigitalCard => 'Votre carte digitale';
+
+  @override
+  String get noDigitalCardFound => 'Vous n’avez pas encore de carte digitale. Ajoutez vos informations dans la section Informations personnelles pour la créer.';
+
+  @override
+  String get digiCard => 'Carte Digi';
+
+  @override
+  String get searchConnections => 'Rechercher des connexions...';
+
+  @override
+  String get goodMorning => 'Bonjour';
+
+  @override
+  String get goodAfternoon => 'Bon après-midi';
+
+  @override
+  String get goodEvening => 'Bonsoir';
+
+  @override
+  String get hi => 'salut';
+
+  @override
+  String get totalImpression => 'Impressions totales';
+
+  @override
+  String get addLinks => 'Ajouter des liens';
+
+  @override
+  String get totalViews => 'Vues totales';
+
+  @override
+  String get totalConnections => 'Connexions totales';
+
+  @override
+  String get totalLinksAdded => 'Total des liens ajoutés';
+
+  @override
+  String get firstName => 'Prénom';
+
+  @override
+  String get enterFirstName => 'Entrez le prénom';
+
+  @override
+  String get lastName => 'Nom de famille';
+
+  @override
+  String get enterLastName => 'Entrez le nom de famille';
+
+  @override
+  String get bio => 'Bio';
+
+  @override
+  String get enterBio => 'Entrez la bio';
+
+  @override
+  String get cannotBeEmpty => 'ne peut pas être vide';
+
+  @override
+  String get optional => 'Optionnel';
+
+  @override
+  String get aboutYou => 'À propos de vous';
+
+  @override
+  String get save => 'Enregistrer';
+
+  @override
+  String get profileViews => 'Vues du profil';
+
+  @override
+  String get profileViewsDescription => 'Suivez les visites récentes sur votre profil';
+
+  @override
+  String get addMoreSocialProfiles => 'Ajouter plus de profils sociaux';
+
+  @override
+  String get userName => 'Nom d’utilisateur';
+
+  @override
+  String get enterUserName => 'Entrez le nom d’utilisateur';
+
+  @override
+  String get socialProfileUrl => 'URL du profil social';
+
+  @override
+  String get clear => 'Effacer';
+
+  @override
+  String get addSocialProfile => 'Ajouter un profil social';
+
+  @override
+  String get enterSocialProfileUrl => 'Entrez l’URL du profil social';
+
+  @override
+  String get displayName => 'Nom d’affichage';
+
+  @override
+  String get useUsername => 'Utiliser le nom d’utilisateur';
+
+  @override
+  String get useUrl => 'Utiliser l’URL';
+
+  @override
+  String get selectSocialPlatform => 'Sélectionnez une plateforme sociale';
 }

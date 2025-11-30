@@ -19,4 +19,13 @@ class AppRouterConstants {
 
   // Scanner
   static const String scanner = "scanner";
+
+  // Profile Personal Info
+  static const String profilePersonalInfo = "profilePersonalInfo";
+
+  // Profile View Screen
+  static const String profileView = "profileView";
+
+  // Add Social Links Screen
+  static const String addSocialLinks = "addSocialLinks";
 }

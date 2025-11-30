@@ -127,4 +127,118 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get scanQRLightningSetup => 'استخدم إضاءة جيدة لتحسين سرعة ودقة المسح.';
+
+  @override
+  String get yourConnections => 'جهات الاتصال الخاصة بك';
+
+  @override
+  String get noConnectionsFound => 'لم يتم إضافة أي جهات اتصال بعد. يرجى طلب من أصدقائك إضافتك كجهة اتصال.';
+
+  @override
+  String get yourDigitalCard => 'بطاقتك الرقمية';
+
+  @override
+  String get noDigitalCardFound => 'ليس لديك بطاقة رقمية بعد. أضف معلوماتك في قسم المعلومات الشخصية لإنشائها.';
+
+  @override
+  String get digiCard => 'بطاقة رقمية';
+
+  @override
+  String get searchConnections => 'ابحث عن جهات الاتصال...';
+
+  @override
+  String get goodMorning => 'صباح الخير';
+
+  @override
+  String get goodAfternoon => 'مساء الخير';
+
+  @override
+  String get goodEvening => 'مساء الخير';
+
+  @override
+  String get hi => 'مرحبا';
+
+  @override
+  String get totalImpression => 'إجمالي الانطباعات';
+
+  @override
+  String get addLinks => 'أضف الروابط';
+
+  @override
+  String get totalViews => 'إجمالي المشاهدات';
+
+  @override
+  String get totalConnections => 'إجمالي الاتصالات';
+
+  @override
+  String get totalLinksAdded => 'إجمالي الروابط المضافة';
+
+  @override
+  String get firstName => 'الاسم الأول';
+
+  @override
+  String get enterFirstName => 'أدخل الاسم الأول';
+
+  @override
+  String get lastName => 'اسم العائلة';
+
+  @override
+  String get enterLastName => 'أدخل اسم العائلة';
+
+  @override
+  String get bio => 'السيرة';
+
+  @override
+  String get enterBio => 'أدخل السيرة';
+
+  @override
+  String get cannotBeEmpty => 'لا يمكن أن يكون فارغًا';
+
+  @override
+  String get optional => 'اختياري';
+
+  @override
+  String get aboutYou => 'عنك';
+
+  @override
+  String get save => 'حفظ';
+
+  @override
+  String get profileViews => 'مشاهدات الملف الشخصي';
+
+  @override
+  String get profileViewsDescription => 'تتبع الزيارات الأخيرة لملفك الشخصي';
+
+  @override
+  String get addMoreSocialProfiles => 'أضف المزيد من الملفات الاجتماعية';
+
+  @override
+  String get userName => 'اسم المستخدم';
+
+  @override
+  String get enterUserName => 'أدخل اسم المستخدم';
+
+  @override
+  String get socialProfileUrl => 'رابط الملف الاجتماعي';
+
+  @override
+  String get clear => 'مسح';
+
+  @override
+  String get addSocialProfile => 'إضافة ملف اجتماعي';
+
+  @override
+  String get enterSocialProfileUrl => 'أدخل رابط الملف الاجتماعي';
+
+  @override
+  String get displayName => 'اسم العرض';
+
+  @override
+  String get useUsername => 'استخدم اسم المستخدم';
+
+  @override
+  String get useUrl => 'استخدم الرابط';
+
+  @override
+  String get selectSocialPlatform => 'اختر المنصة الاجتماعية';
 }

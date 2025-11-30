@@ -105,7 +105,7 @@ class BottomNav extends StatelessWidget {
                       label: appLoc.home,
                     ),
 
-                    // Scan
+                    // Digital Card
                     NavigationDestination(
                       icon: SvgPicture.asset(
                         AppAssetsConstants.digitalCardOutlined,
@@ -125,13 +125,13 @@ class BottomNav extends StatelessWidget {
                             : 32,
                         color: AppColorThemes.primaryColor,
                       ),
-                      label: "Digi Card",
+                      label: appLoc.digiCard,
                     ),
 
                     // Connections
                     NavigationDestination(
                       icon: SvgPicture.asset(
-                        AppAssetsConstants.historyOutlined,
+                        AppAssetsConstants.connectionsOutlined,
                         height: isMobile
                             ? 28
                             : isTablet
@@ -140,7 +140,7 @@ class BottomNav extends StatelessWidget {
                         color: AppColorThemes.secondaryColor,
                       ),
                       selectedIcon: SvgPicture.asset(
-                        AppAssetsConstants.historyFilled,
+                        AppAssetsConstants.connectionsFilled,
                         height: isMobile
                             ? 28
                             : isTablet

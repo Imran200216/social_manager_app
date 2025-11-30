@@ -3,6 +3,7 @@ import 'package:get_it/get_it.dart';
 import 'package:social_manager_app/features/bottom_nav/bottom_nav.dart';
 import 'package:social_manager_app/features/localization/localization.dart';
 import 'package:social_manager_app/features/on_boarding/on_boarding.dart';
+import 'package:social_manager_app/features/home/home.dart';
 
 final GetIt getIt = GetIt.instance;
 
@@ -17,4 +18,9 @@ List<BlocProvider> appBlocProviders = [
 
   // Bottom Nav Cubit
   BlocProvider<BottomNavCubit>(create: (context) => getIt<BottomNavCubit>()),
+
+  // Toggle User Name Url Cubit
+  BlocProvider<ToggleUserNameUrlCubit>(
+    create: (context) => getIt<ToggleUserNameUrlCubit>(),
+  ),
 ];

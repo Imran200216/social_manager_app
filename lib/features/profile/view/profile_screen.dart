@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:social_manager_app/core/themes/app_color_themes.dart';
+import 'package:social_manager_app/core/utils/url_launcher_utils.dart';
 import 'package:social_manager_app/core/utils/utils.dart';
 import 'package:social_manager_app/features/profile/profile.dart';
 import 'package:social_manager_app/l10n/app_localizations.dart';
@@ -102,7 +103,12 @@ class ProfileScreen extends StatelessWidget {
                       leadingSvgPath: AppAssetsConstants.profileOutlined,
                       title: appLoc.personalInfo,
                       subtitle: appLoc.personalInfoDescription,
-                      onTap: () {},
+                      onTap: () {
+                        // Profile Personal Info Screen
+                        context.pushNamed(
+                          AppRouterConstants.profilePersonalInfo,
+                        );
+                      },
                     ),
 
                     // Language Preference
@@ -118,12 +124,28 @@ class ProfileScreen extends StatelessWidget {
                       },
                     ),
 
+                    // Profile Views
+                    ProfileListTile(
+                      leadingSvgPath: AppAssetsConstants.view,
+                      title: appLoc.profileViews,
+                      subtitle: appLoc.profileViewsDescription,
+                      onTap: () {
+                        // Profile Views Screen
+                        context.pushNamed(AppRouterConstants.profileView);
+                      },
+                    ),
+
                     // Share
                     ProfileListTile(
                       leadingSvgPath: AppAssetsConstants.share,
                       title: appLoc.shareApp,
                       subtitle: appLoc.shareAppDescription,
-                      onTap: () {},
+                      onTap: () {
+                        // Share App
+                        UrlLauncherUtils.launchUrlLink(
+                          AppContentConstants.shareApp,
+                        );
+                      },
                     ),
 
                     // FAQ
@@ -131,7 +153,10 @@ class ProfileScreen extends StatelessWidget {
                       leadingSvgPath: AppAssetsConstants.faq,
                       title: appLoc.faq,
                       subtitle: appLoc.faqDescription,
-                      onTap: () {},
+                      onTap: () {
+                        // FAQ
+                        UrlLauncherUtils.launchUrlLink(AppContentConstants.faq);
+                      },
                     ),
 
                     // Privacy policy
@@ -139,7 +164,12 @@ class ProfileScreen extends StatelessWidget {
                       leadingSvgPath: AppAssetsConstants.privacyPolicy,
                       title: appLoc.privacyPolicy,
                       subtitle: appLoc.privacyPolicyDescription,
-                      onTap: () {},
+                      onTap: () {
+                        // Privacy Policy
+                        UrlLauncherUtils.launchUrlLink(
+                          AppContentConstants.privacyPolicy,
+                        );
+                      },
                     ),
 
                     // Support
@@ -147,7 +177,12 @@ class ProfileScreen extends StatelessWidget {
                       leadingSvgPath: AppAssetsConstants.support,
                       title: appLoc.contactSupport,
                       subtitle: appLoc.contactSupportDescription,
-                      onTap: () {},
+                      onTap: () {
+                        // Support
+                        UrlLauncherUtils.launchUrlLink(
+                          AppContentConstants.contactSupport,
+                        );
+                      },
                     ),
 
                     // Logout

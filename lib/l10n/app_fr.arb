@@ -38,5 +38,52 @@
   "scanQRCode": "Scanner le code QR",
   "scanQRCodeTitle": "Alignez le code QR à l'intérieur du cadre",
   "scanQRCodeSubTitle": "Gardez votre appareil stable et assurez-vous que le code QR est entièrement visible pour de meilleurs résultats.",
-  "scanQRLightningSetup": "Utilisez un bon éclairage pour améliorer la détection et la vitesse de numérisation."
+  "scanQRLightningSetup": "Utilisez un bon éclairage pour améliorer la détection et la vitesse de numérisation.",
+  "yourConnections": "Vos connexions",
+  "noConnectionsFound": "Aucune connexion ajoutée pour le moment. Veuillez demander à vos amis de vous ajouter en tant que connexion.",
+  "yourDigitalCard": "Votre carte digitale",
+  "noDigitalCardFound": "Vous n’avez pas encore de carte digitale. Ajoutez vos informations dans la section Informations personnelles pour la créer.",
+  "digiCard": "Carte Digi",
+  "searchConnections": "Rechercher des connexions...",
+  "goodMorning": "Bonjour",
+  "goodAfternoon": "Bon après-midi",
+  "goodEvening": "Bonsoir",
+  "hi": "salut",
+  "totalImpression": "Impressions totales",
+  "addLinks": "Ajouter des liens",
+  "totalViews": "Vues totales",
+  "totalConnections": "Connexions totales",
+  "totalLinksAdded": "Total des liens ajoutés",
+  "firstName": "Prénom",
+  "enterFirstName": "Entrez le prénom",
+  "lastName": "Nom de famille",
+  "enterLastName": "Entrez le nom de famille",
+  "bio": "Bio",
+  "enterBio": "Entrez la bio",
+  "cannotBeEmpty": "ne peut pas être vide",
+  "optional": "Optionnel",
+  "aboutYou": "À propos de vous",
+  "save": "Enregistrer",
+  "profileViews": "Vues du profil",
+  "profileViewsDescription": "Suivez les visites récentes sur votre profil",
+  "addMoreSocialProfiles": "Ajouter plus de profils sociaux",
+  "userName": "Nom d’utilisateur",
+  "enterUserName": "Entrez le nom d’utilisateur",
+  "socialProfileUrl": "URL du profil social",
+  "clear": "Effacer",
+  "addSocialProfile": "Ajouter un profil social",
+  "enterSocialProfileUrl": "Entrez l’URL du profil social",
+  "displayName": "Nom d’affichage",
+  "useUsername": "Utiliser le nom d’utilisateur",
+  "useUrl": "Utiliser l’URL",
+  "selectSocialPlatform": "Sélectionnez une plateforme sociale"
+
+
+
+
+
+
+
+
+
 }

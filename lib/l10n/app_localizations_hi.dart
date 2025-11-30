@@ -127,4 +127,118 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get scanQRLightningSetup => 'बेहतर पहचान और तेज़ स्कैनिंग के लिए अच्छी रोशनी का उपयोग करें।';
+
+  @override
+  String get yourConnections => 'आपके कनेक्शन';
+
+  @override
+  String get noConnectionsFound => 'अभी तक कोई कनेक्शन नहीं जोड़ा गया है। कृपया अपने मित्रों से आपको कनेक्शन के रूप में जोड़ने के लिए कहें।';
+
+  @override
+  String get yourDigitalCard => 'आपका डिजिटल कार्ड';
+
+  @override
+  String get noDigitalCardFound => 'आपका डिजिटल कार्ड अभी तैयार नहीं है। इसे बनाने के लिए अपनी प्रोफ़ाइल में \'पर्सनल इंफो\' विवरण जोड़ें।';
+
+  @override
+  String get digiCard => 'डिजीकार्ड';
+
+  @override
+  String get searchConnections => 'कनेक्शन खोजें...';
+
+  @override
+  String get goodMorning => 'सुप्रभात';
+
+  @override
+  String get goodAfternoon => 'नमस्कार';
+
+  @override
+  String get goodEvening => 'शुभ संध्या';
+
+  @override
+  String get hi => 'हाय';
+
+  @override
+  String get totalImpression => 'कुल इंप्रेशन';
+
+  @override
+  String get addLinks => 'लिंक जोड़ें';
+
+  @override
+  String get totalViews => 'कुल दृश्य';
+
+  @override
+  String get totalConnections => 'कुल कनेक्शन';
+
+  @override
+  String get totalLinksAdded => 'जोड़े गए कुल लिंक';
+
+  @override
+  String get firstName => 'पहला नाम';
+
+  @override
+  String get enterFirstName => 'पहला नाम दर्ज करें';
+
+  @override
+  String get lastName => 'अंतिम नाम';
+
+  @override
+  String get enterLastName => 'अंतिम नाम दर्ज करें';
+
+  @override
+  String get bio => 'बायो';
+
+  @override
+  String get enterBio => 'बायो दर्ज करें';
+
+  @override
+  String get cannotBeEmpty => 'खाली नहीं हो सकता';
+
+  @override
+  String get optional => 'वैकल्पिक';
+
+  @override
+  String get aboutYou => 'आपके बारे में';
+
+  @override
+  String get save => 'सहेजें';
+
+  @override
+  String get profileViews => 'प्रोफ़ाइल दृश्य';
+
+  @override
+  String get profileViewsDescription => 'अपने प्रोफ़ाइल पर हाल की विज़िट को ट्रैक करें';
+
+  @override
+  String get addMoreSocialProfiles => 'अधिक सोशल प्रोफ़ाइल जोड़ें';
+
+  @override
+  String get userName => 'उपयोगकर्ता नाम';
+
+  @override
+  String get enterUserName => 'उपयोगकर्ता नाम दर्ज करें';
+
+  @override
+  String get socialProfileUrl => 'सोशल प्रोफ़ाइल URL';
+
+  @override
+  String get clear => 'साफ़ करें';
+
+  @override
+  String get addSocialProfile => 'सोशल प्रोफ़ाइल जोड़ें';
+
+  @override
+  String get enterSocialProfileUrl => 'सोशल प्रोफ़ाइल URL दर्ज करें';
+
+  @override
+  String get displayName => 'प्रदर्शित नाम';
+
+  @override
+  String get useUsername => 'यूज़रनेम का उपयोग करें';
+
+  @override
+  String get useUrl => 'URL का उपयोग करें';
+
+  @override
+  String get selectSocialPlatform => 'सोशल प्लेटफ़ॉर्म चुनें';
 }

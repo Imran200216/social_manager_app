@@ -1,5 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:social_manager_app/features/auth/auth.dart';
+import 'package:social_manager_app/features/home/home.dart';
 import 'package:social_manager_app/features/localization/localization.dart';
 import 'package:social_manager_app/features/on_boarding/on_boarding.dart';
 import 'package:social_manager_app/features/profile/profile.dart';
@@ -73,6 +74,33 @@ GoRouter appRouter = GoRouter(
       name: AppRouterConstants.scanner,
       builder: (context, state) {
         return ScannerScreen();
+      },
+    ),
+
+    // Profile Personal Info Screen
+    GoRoute(
+      path: '/profilePersonalInfo',
+      name: AppRouterConstants.profilePersonalInfo,
+      builder: (context, state) {
+        return ProfilePersonalInfoScreen();
+      },
+    ),
+
+    // Profile View Screen
+    GoRoute(
+      path: '/profileView',
+      name: AppRouterConstants.profileView,
+      builder: (context, state) {
+        return ProfileViewScreen();
+      },
+    ),
+
+    // Add Social Links
+    GoRoute(
+      path: '/addSocialLinks',
+      name: AppRouterConstants.addSocialLinks,
+      builder: (context, state) {
+        return AddSocialLinksScreen();
       },
     ),
   ],

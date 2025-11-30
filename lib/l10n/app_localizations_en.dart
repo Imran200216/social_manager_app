@@ -127,4 +127,118 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get scanQRLightningSetup => 'Use good lighting to improve detection and scanning speed.';
+
+  @override
+  String get yourConnections => 'Your Connections';
+
+  @override
+  String get noConnectionsFound => 'No Connections added yet. Please can your friends add you as a connection.';
+
+  @override
+  String get yourDigitalCard => 'Your Digital Card';
+
+  @override
+  String get noDigitalCardFound => 'You don’t have a digital card yet. Add your details under Personal Info to create one.';
+
+  @override
+  String get digiCard => 'DigiCard';
+
+  @override
+  String get searchConnections => 'Search connections...';
+
+  @override
+  String get goodMorning => 'Good Morning';
+
+  @override
+  String get goodAfternoon => 'Good Afternoon';
+
+  @override
+  String get goodEvening => 'Good Evening';
+
+  @override
+  String get hi => 'hi';
+
+  @override
+  String get totalImpression => 'Total Impression';
+
+  @override
+  String get addLinks => 'Add Links';
+
+  @override
+  String get totalViews => 'Total Views';
+
+  @override
+  String get totalConnections => 'Total Connections';
+
+  @override
+  String get totalLinksAdded => 'Total Links Added';
+
+  @override
+  String get firstName => 'First Name';
+
+  @override
+  String get enterFirstName => 'Enter first name';
+
+  @override
+  String get lastName => 'Last Name';
+
+  @override
+  String get enterLastName => 'Enter last name';
+
+  @override
+  String get bio => 'Bio';
+
+  @override
+  String get enterBio => 'Enter bio';
+
+  @override
+  String get cannotBeEmpty => 'cannot be empty';
+
+  @override
+  String get optional => 'Optional';
+
+  @override
+  String get aboutYou => 'About You';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get profileViews => 'Profile Views';
+
+  @override
+  String get profileViewsDescription => 'Track recent visits to your profile';
+
+  @override
+  String get addMoreSocialProfiles => 'Add More Social Profiles';
+
+  @override
+  String get userName => 'UserName';
+
+  @override
+  String get enterUserName => 'Enter user name';
+
+  @override
+  String get socialProfileUrl => 'Social Profile URL';
+
+  @override
+  String get clear => 'Clear';
+
+  @override
+  String get addSocialProfile => 'Add Social Profile';
+
+  @override
+  String get enterSocialProfileUrl => 'Enter Social Profile URL';
+
+  @override
+  String get displayName => 'Display Name';
+
+  @override
+  String get useUsername => 'Use Username';
+
+  @override
+  String get useUrl => 'Use Url';
+
+  @override
+  String get selectSocialPlatform => 'Select Social Platform';
 }

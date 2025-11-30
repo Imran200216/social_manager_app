@@ -338,6 +338,234 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Use good lighting to improve detection and scanning speed.'**
   String get scanQRLightningSetup;
+
+  /// No description provided for @yourConnections.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Connections'**
+  String get yourConnections;
+
+  /// No description provided for @noConnectionsFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No Connections added yet. Please can your friends add you as a connection.'**
+  String get noConnectionsFound;
+
+  /// No description provided for @yourDigitalCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Digital Card'**
+  String get yourDigitalCard;
+
+  /// No description provided for @noDigitalCardFound.
+  ///
+  /// In en, this message translates to:
+  /// **'You don’t have a digital card yet. Add your details under Personal Info to create one.'**
+  String get noDigitalCardFound;
+
+  /// No description provided for @digiCard.
+  ///
+  /// In en, this message translates to:
+  /// **'DigiCard'**
+  String get digiCard;
+
+  /// No description provided for @searchConnections.
+  ///
+  /// In en, this message translates to:
+  /// **'Search connections...'**
+  String get searchConnections;
+
+  /// No description provided for @goodMorning.
+  ///
+  /// In en, this message translates to:
+  /// **'Good Morning'**
+  String get goodMorning;
+
+  /// No description provided for @goodAfternoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Good Afternoon'**
+  String get goodAfternoon;
+
+  /// No description provided for @goodEvening.
+  ///
+  /// In en, this message translates to:
+  /// **'Good Evening'**
+  String get goodEvening;
+
+  /// No description provided for @hi.
+  ///
+  /// In en, this message translates to:
+  /// **'hi'**
+  String get hi;
+
+  /// No description provided for @totalImpression.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Impression'**
+  String get totalImpression;
+
+  /// No description provided for @addLinks.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Links'**
+  String get addLinks;
+
+  /// No description provided for @totalViews.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Views'**
+  String get totalViews;
+
+  /// No description provided for @totalConnections.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Connections'**
+  String get totalConnections;
+
+  /// No description provided for @totalLinksAdded.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Links Added'**
+  String get totalLinksAdded;
+
+  /// No description provided for @firstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get firstName;
+
+  /// No description provided for @enterFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter first name'**
+  String get enterFirstName;
+
+  /// No description provided for @lastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last Name'**
+  String get lastName;
+
+  /// No description provided for @enterLastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter last name'**
+  String get enterLastName;
+
+  /// No description provided for @bio.
+  ///
+  /// In en, this message translates to:
+  /// **'Bio'**
+  String get bio;
+
+  /// No description provided for @enterBio.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter bio'**
+  String get enterBio;
+
+  /// No description provided for @cannotBeEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'cannot be empty'**
+  String get cannotBeEmpty;
+
+  /// No description provided for @optional.
+  ///
+  /// In en, this message translates to:
+  /// **'Optional'**
+  String get optional;
+
+  /// No description provided for @aboutYou.
+  ///
+  /// In en, this message translates to:
+  /// **'About You'**
+  String get aboutYou;
+
+  /// No description provided for @save.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get save;
+
+  /// No description provided for @profileViews.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile Views'**
+  String get profileViews;
+
+  /// No description provided for @profileViewsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Track recent visits to your profile'**
+  String get profileViewsDescription;
+
+  /// No description provided for @addMoreSocialProfiles.
+  ///
+  /// In en, this message translates to:
+  /// **'Add More Social Profiles'**
+  String get addMoreSocialProfiles;
+
+  /// No description provided for @userName.
+  ///
+  /// In en, this message translates to:
+  /// **'UserName'**
+  String get userName;
+
+  /// No description provided for @enterUserName.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter user name'**
+  String get enterUserName;
+
+  /// No description provided for @socialProfileUrl.
+  ///
+  /// In en, this message translates to:
+  /// **'Social Profile URL'**
+  String get socialProfileUrl;
+
+  /// No description provided for @clear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get clear;
+
+  /// No description provided for @addSocialProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Social Profile'**
+  String get addSocialProfile;
+
+  /// No description provided for @enterSocialProfileUrl.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter Social Profile URL'**
+  String get enterSocialProfileUrl;
+
+  /// No description provided for @displayName.
+  ///
+  /// In en, this message translates to:
+  /// **'Display Name'**
+  String get displayName;
+
+  /// No description provided for @useUsername.
+  ///
+  /// In en, this message translates to:
+  /// **'Use Username'**
+  String get useUsername;
+
+  /// No description provided for @useUrl.
+  ///
+  /// In en, this message translates to:
+  /// **'Use Url'**
+  String get useUrl;
+
+  /// No description provided for @selectSocialPlatform.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Social Platform'**
+  String get selectSocialPlatform;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

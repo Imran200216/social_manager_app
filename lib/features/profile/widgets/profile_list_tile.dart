@@ -25,6 +25,11 @@ class ProfileListTile extends StatelessWidget {
     final isMobile = ResponsiveUtils.isMobile(context);
 
     return ListTile(
+      splashColor: AppColorThemes.transparentColor,
+      hoverColor: AppColorThemes.transparentColor,
+      focusColor: AppColorThemes.transparentColor,
+      tileColor: AppColorThemes.transparentColor,
+
       onTap: () {
         HapticFeedback.heavyImpact();
 

@@ -38,5 +38,54 @@
   "scanQRCode": "مسح رمز الاستجابة السريعة",
   "scanQRCodeTitle": "ضع رمز الاستجابة السريعة داخل الإطار",
   "scanQRCodeSubTitle": "أمسك جهازك بثبات وتأكد من أن رمز الاستجابة السريعة مرئي بالكامل للحصول على أفضل النتائج.",
-  "scanQRLightningSetup": "استخدم إضاءة جيدة لتحسين سرعة ودقة المسح."
+  "scanQRLightningSetup": "استخدم إضاءة جيدة لتحسين سرعة ودقة المسح.",
+  "yourConnections": "جهات الاتصال الخاصة بك",
+  "noConnectionsFound": "لم يتم إضافة أي جهات اتصال بعد. يرجى طلب من أصدقائك إضافتك كجهة اتصال.",
+  "yourDigitalCard": "بطاقتك الرقمية",
+  "noDigitalCardFound": "ليس لديك بطاقة رقمية بعد. أضف معلوماتك في قسم المعلومات الشخصية لإنشائها.",
+  "digiCard": "بطاقة رقمية",
+  "searchConnections": "ابحث عن جهات الاتصال...",
+  "goodMorning": "صباح الخير",
+  "goodAfternoon": "مساء الخير",
+  "goodEvening": "مساء الخير",
+  "hi": "مرحبا",
+  "totalImpression": "إجمالي الانطباعات",
+  "addLinks": "أضف الروابط",
+  "totalViews": "إجمالي المشاهدات",
+  "totalConnections": "إجمالي الاتصالات",
+  "totalLinksAdded": "إجمالي الروابط المضافة",
+  "firstName": "الاسم الأول",
+  "enterFirstName": "أدخل الاسم الأول",
+  "lastName": "اسم العائلة",
+  "enterLastName": "أدخل اسم العائلة",
+  "bio": "السيرة",
+  "enterBio": "أدخل السيرة",
+  "cannotBeEmpty": "لا يمكن أن يكون فارغًا",
+  "optional": "اختياري",
+  "aboutYou": "عنك",
+  "save": "حفظ",
+  "profileViews": "مشاهدات الملف الشخصي",
+  "profileViewsDescription": "تتبع الزيارات الأخيرة لملفك الشخصي",
+  "addMoreSocialProfiles": "أضف المزيد من الملفات الاجتماعية",
+  "userName": "اسم المستخدم",
+  "enterUserName": "أدخل اسم المستخدم",
+  "socialProfileUrl": "رابط الملف الاجتماعي",
+  "clear": "مسح",
+  "addSocialProfile": "إضافة ملف اجتماعي",
+  "enterSocialProfileUrl": "أدخل رابط الملف الاجتماعي",
+  "displayName": "اسم العرض",
+  "useUsername": "استخدم اسم المستخدم",
+  "useUrl": "استخدم الرابط",
+  "selectSocialPlatform": "اختر المنصة الاجتماعية"
+
+
+
+
+
+
+
+
+
+
+
 }
