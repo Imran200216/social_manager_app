@@ -17,6 +17,23 @@ class AppAssetsConstants {
   static const String india = "assets/images/svg/in.svg";
   static const String uae = "assets/images/svg/uae.svg";
   static const String french = "assets/images/svg/french.svg";
+  static const String spanish = "assets/images/svg/spanish.svg";
+  static const String russia = "assets/images/svg/russia.svg";
+  static const String germany = "assets/images/svg/german.svg";
+  static const String china = "assets/images/svg/china.svg";
+  static const String japan = "assets/images/svg/japan.svg";
+  static const String portugal = "assets/images/svg/portugal.svg";
+
+  // socials
+  static const String instagram = "assets/images/svg/instagram.svg";
+  static const String facebook = "assets/images/svg/facebook.svg";
+  static const String linkedin = "assets/images/svg/linkedin.svg";
+  static const String tiktok = "assets/images/svg/tiktok.svg";
+  static const String github = "assets/images/svg/github.svg";
+  static const String youtube = "assets/images/svg/youtube.svg";
+  static const String pinterest = "assets/images/svg/pinterest.svg";
+  static const String medium = "assets/images/svg/medium.svg";
+  static const String snapchat = "assets/images/svg/snapchat.svg";
 
   // Icons
   static const String google = "assets/icons/svg/google.svg";

@@ -42,10 +42,26 @@ class MyApp extends StatelessWidget {
                 ? Locale(state.selectedLanguage)
                 : const Locale("en"),
             supportedLocales: const [
+              // English
               Locale('en'),
+              // Arabic
               Locale('ar'),
+              // French
               Locale('fr'),
+              // Hindi
               Locale('hi'),
+              // Spanish
+              Locale('es'),
+              // Russian
+              Locale('ru'),
+              // German
+              Locale('de'),
+              // Portuguese
+              Locale('pt'),
+              // Chinese
+              Locale('zh'),
+              // Japanese
+              Locale('ja'),
             ],
             localizationsDelegates: [
               AppLocalizations.delegate,
